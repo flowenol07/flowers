@@ -1,0 +1,3092 @@
+[
+  {
+    "name" : "African Iris",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/african_iris.jpg",
+    "significance" : "Aristocracy of Beauty",
+    "slug" : "african-iris"
+  },
+  {
+    "name" : "African Marigold",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/african_marigold.jpg",
+    "significance" : "",
+    "slug" : "african-marigold"
+  },
+  {
+    "name" : "African Tulip Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/african_tulip_tree.jpg",
+    "significance" : "Passion",
+    "slug" : "african-tulip-tree"
+  },
+  {
+    "name" : "African Violet",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/african_violet.jpg",
+    "significance" : "",
+    "slug" : "african-violet"
+  },
+  {
+    "name" : "Air Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/air_plant.jpg",
+    "significance" : "Light in Fairyland",
+    "slug" : "air-plant"
+  },
+  {
+    "name" : "Alexandrian Laurel",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/alexandrian_laurel.jpg",
+    "significance" : "Peace in the Physical",
+    "slug" : "alexandrian-laurel"
+  },
+  {
+    "name" : "Almond Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/almond_tree.jpg",
+    "significance" : "Smile of Nature",
+    "slug" : "almond-tree"
+  },
+  {
+    "name" : "Amaryllis",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/amaryllis.jpg",
+    "significance" : "",
+    "slug" : "amaryllis"
+  },
+  {
+    "name" : "Amazon Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/amazon_lily.jpg",
+    "significance" : "Light without Obscurity",
+    "slug" : "amazon-lily"
+  },
+  {
+    "name" : "Angel Wings",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/angel_wings.jpg",
+    "significance" : "Purity in the Emotional Centre",
+    "slug" : "angel-wings"
+  },
+  {
+    "name" : "Angel's Trumpet",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/angels_trumpet.jpg",
+    "significance" : "Perfect Tapasya",
+    "slug" : "angels-trumpet"
+  },
+  {
+    "name" : "Angled Luffa",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/angled_luffa.jpg",
+    "significance" : "Kind Mind",
+    "slug" : "angled-luffa"
+  },
+  {
+    "name" : "Annatto",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/annatto.jpg",
+    "significance" : "New World",
+    "slug" : "annatto"
+  },
+  {
+    "name" : "Annual Phlox",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/annual_phlox.jpg",
+    "significance" : "",
+    "slug" : "annual-phlox"
+  },
+  {
+    "name" : "Antiqua Sage",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/antiqua_sage.jpg",
+    "significance" : "Spiritual Aspiration in the Physical",
+    "slug" : "antiqua-sage"
+  },
+  {
+    "name" : "Asiatic Tarenna",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/asiatic_tarenna.jpg",
+    "significance" : "Humility before the Divine in the Physical Nature",
+    "slug" : "asiatic-tarenna"
+  },
+  {
+    "name" : "Asoka",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/asoka.jpg",
+    "significance" : "Without Grief",
+    "slug" : "asoka"
+  },
+  {
+    "name" : "Australian Ivy Palm",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/australian_ivy_palm.jpg",
+    "significance" : "Organised Material Energy",
+    "slug" : "australian-ivy-palm"
+  },
+  {
+    "name" : "Baby's Breath",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/babys_breath.jpg",
+    "significance" : "Modesty of Beauty",
+    "slug" : "babys-breath"
+  },
+  {
+    "name" : "Bael Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bael_tree.jpg",
+    "significance" : "Devotional Attitude",
+    "slug" : "bael-tree"
+  },
+  {
+    "name" : "Bag Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bag_flower.jpg",
+    "significance" : "",
+    "slug" : "bag-flower"
+  },
+  {
+    "name" : "Balloon Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/balloon_flower.jpg",
+    "significance" : "Unostentatious Certitude",
+    "slug" : "balloon-flower"
+  },
+  {
+    "name" : "Barbados Aloe",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/barbados_aloe.jpg",
+    "significance" : "Dreams",
+    "slug" : "barbados-aloe"
+  },
+  {
+    "name" : "Barbados Cherry",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/barbados_cherry.jpg",
+    "significance" : "Sensitivity",
+    "slug" : "barbados-cherry"
+  },
+  {
+    "name" : "Barbados Pride",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/barbados_pride.jpg",
+    "significance" : "",
+    "slug" : "barbados-pride"
+  },
+  {
+    "name" : "Barberton Daisy",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/barberton_daisy.jpg",
+    "significance" : "Frankness",
+    "slug" : "barberton-daisy"
+  },
+  {
+    "name" : "Barleria",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/barleria.jpg",
+    "significance" : "",
+    "slug" : "barleria"
+  },
+  {
+    "name" : "Barrel Cactus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/barrel_cactus.jpg",
+    "significance" : "Richness of Feelings",
+    "slug" : "barrel-cactus"
+  },
+  {
+    "name" : "Beach Gardenia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/beach_gardenia.jpg",
+    "significance" : "Peace in the Nerves",
+    "slug" : "beach-gardenia"
+  },
+  {
+    "name" : "Begonia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/begonia.jpg",
+    "significance" : "",
+    "slug" : "begonia"
+  },
+  {
+    "name" : "Bell Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bell_flower.jpg",
+    "significance" : "",
+    "slug" : "bell-flower"
+  },
+  {
+    "name" : "Betel Palm",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/betel_palm.jpg",
+    "significance" : "Steadfast Vitality",
+    "slug" : "betel-palm"
+  },
+  {
+    "name" : "Bird of Paradise",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bird_of_paradise.jpg",
+    "significance" : "Supramental Bird",
+    "slug" : "bird-of-paradise"
+  },
+  {
+    "name" : "Bird's Eye Bush",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/birds_eye_bush.jpg",
+    "significance" : "Greed for Money",
+    "slug" : "birds-eye-bush"
+  },
+  {
+    "name" : "Bitter Gourd",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bitter_gourd.jpg",
+    "significance" : "Sweetness",
+    "slug" : "bitter-gourd"
+  },
+  {
+    "name" : "Bitter Wood",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bitter_wood.jpg",
+    "significance" : "Splendour and Opulence in the Material Life",
+    "slug" : "bitter-wood"
+  },
+  {
+    "name" : "Black Wattle",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/black_wattle.jpg",
+    "significance" : "Work",
+    "slug" : "black-wattle"
+  },
+  {
+    "name" : "Black-eyed Susan",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/black_eyed_susan.jpg",
+    "significance" : "First Turning of the Vital towards the Divine",
+    "slug" : "black-eyed-susan"
+  },
+  {
+    "name" : "Black-eyed Susan Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/black_eyed_susan_vine.jpg",
+    "significance" : "",
+    "slug" : "black-eyed-susan-vine"
+  },
+  {
+    "name" : "Blackberry Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blackberry_lily.jpg",
+    "significance" : "Attachment to the Divine",
+    "slug" : "blackberry-lily"
+  },
+  {
+    "name" : "Bleeding Heart",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bleeding_heart.jpg",
+    "significance" : "Emotional Remembrance",
+    "slug" : "bleeding-heart"
+  },
+  {
+    "name" : "Bleeding Heart Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bleeding_heart_vine.jpg",
+    "significance" : "Aspiration for the Right Attitude",
+    "slug" : "bleeding-heart-vine"
+  },
+  {
+    "name" : "Blood Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blood_flower.jpg",
+    "significance" : "",
+    "slug" : "blood-flower"
+  },
+  {
+    "name" : "Blood Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blood_lily.jpg",
+    "significance" : "Supramental Manifestation",
+    "slug" : "blood-lily"
+  },
+  {
+    "name" : "Blue Dawn Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blue_dawn_flower.jpg",
+    "significance" : "Artistic Taste",
+    "slug" : "blue-dawn-flower"
+  },
+  {
+    "name" : "Blue Eranthemum",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blue_eranthemum.jpg",
+    "significance" : "Krishna's Light in the Subconscient",
+    "slug" : "blue-eranthemum"
+  },
+  {
+    "name" : "Blue Fox Tail",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blue_fox_tail.jpg",
+    "significance" : "Krishna's Influence in the Subconscient",
+    "slug" : "blue-fox-tail"
+  },
+  {
+    "name" : "Blue Lace Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blue_lace_flower.jpg",
+    "significance" : "Perfect Working of the Mind",
+    "slug" : "blue-lace-flower"
+  },
+  {
+    "name" : "Blue Orchid",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blue_orchid.jpg",
+    "significance" : "Attachment in the Emotional Vital to the Divine",
+    "slug" : "blue-orchid"
+  },
+  {
+    "name" : "Blue Pea",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blue_pea.jpg",
+    "significance" : "",
+    "slug" : "blue-pea"
+  },
+  {
+    "name" : "Blue Potato Bush",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blue_potato_bush.jpg",
+    "significance" : "Remembrance",
+    "slug" : "blue-potato-bush"
+  },
+  {
+    "name" : "Blue Sage",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blue_sage.jpg",
+    "significance" : "",
+    "slug" : "blue-sage"
+  },
+  {
+    "name" : "Blue Sky Shrub",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blue_sky_shrub.jpg",
+    "significance" : "Opening to Sri Aurobindo's Force",
+    "slug" : "blue-sky-shrub"
+  },
+  {
+    "name" : "Blue Snakeweed",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blue_snakeweed.jpg",
+    "significance" : "Spiritual Ascension in the Vital",
+    "slug" : "blue-snakeweed"
+  },
+  {
+    "name" : "Blue Trumpet Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blue_trumpet_vine.jpg",
+    "significance" : "Krishna's Light in the Mind",
+    "slug" : "blue-trumpet-vine"
+  },
+  {
+    "name" : "Blue-eyed African Daisy",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/blue_eyed_african_daisy.jpg",
+    "significance" : "Cheerful Endeavour",
+    "slug" : "blue-eyed-african-daisy"
+  },
+  {
+    "name" : "Bottle Gourd",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bottle_gourd.jpg",
+    "significance" : "Emotional Abundance",
+    "slug" : "bottle-gourd"
+  },
+  {
+    "name" : "Bottlebrush",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bottlebrush.jpg",
+    "significance" : "Joy of Vegetal Nature in Answer to the New Light",
+    "slug" : "bottlebrush"
+  },
+  {
+    "name" : "Bougainvillea",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bougainvillea.jpg",
+    "significance" : "",
+    "slug" : "bougainvillea"
+  },
+  {
+    "name" : "Bower Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bower_vine.jpg",
+    "significance" : "Opening of the Emotional Centre to the Light",
+    "slug" : "bower-vine"
+  },
+  {
+    "name" : "Bowstring Hemp",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bowstring_hemp.jpg",
+    "significance" : "",
+    "slug" : "bowstring-hemp"
+  },
+  {
+    "name" : "Brazilian Plume Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/brazilian_plume_flower.jpg",
+    "significance" : "Psychic Influence in the Emotions",
+    "slug" : "brazilian-plume-flower"
+  },
+  {
+    "name" : "Bread Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bread_flower.jpg",
+    "significance" : "Psychic Tranquility",
+    "slug" : "bread-flower"
+  },
+  {
+    "name" : "Bridal Bouquet",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bridal_bouquet.jpg",
+    "significance" : "Ether",
+    "slug" : "bridal-bouquet"
+  },
+  {
+    "name" : "Bridal Creeper",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bridal_creeper.jpg",
+    "significance" : "Water",
+    "slug" : "bridal-creeper"
+  },
+  {
+    "name" : "Brisbane Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/brisbane_lily.jpg",
+    "significance" : "Silver",
+    "slug" : "brisbane-lily"
+  },
+  {
+    "name" : "Burning Bush",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/burning_bush.jpg",
+    "significance" : "Organisation of Action in Life",
+    "slug" : "burning-bush"
+  },
+  {
+    "name" : "Bush Violet",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/bush_violet.jpg",
+    "significance" : "",
+    "slug" : "bush-violet"
+  },
+  {
+    "name" : "Butterfly Bush",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/butterfly_bush.jpg",
+    "significance" : "Repose",
+    "slug" : "butterfly-bush"
+  },
+  {
+    "name" : "Butterfly Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/butterfly_tree.jpg",
+    "significance" : "",
+    "slug" : "butterfly-tree"
+  },
+  {
+    "name" : "Cactus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cactus.jpg",
+    "significance" : "Riches",
+    "slug" : "cactus"
+  },
+  {
+    "name" : "Cactus Night Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cactus_night_flower.jpg",
+    "significance" : "Fortune",
+    "slug" : "cactus-night-flower"
+  },
+  {
+    "name" : "Calabur",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/calabur.jpg",
+    "significance" : "Primitive Succulence",
+    "slug" : "calabur"
+  },
+  {
+    "name" : "Calico Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/calico_flower.jpg",
+    "significance" : "Inspiration",
+    "slug" : "calico-flower"
+  },
+  {
+    "name" : "Caltrop",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/caltrop.jpg",
+    "significance" : "First Mental Awakening in Matter",
+    "slug" : "caltrop"
+  },
+  {
+    "name" : "Candytuft",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/candytuft.jpg",
+    "significance" : "Equanimity",
+    "slug" : "candytuft"
+  },
+  {
+    "name" : "Canna Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/canna_lily.jpg",
+    "significance" : "",
+    "slug" : "canna-lily"
+  },
+  {
+    "name" : "Cannonball Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cannonball_tree.jpg",
+    "significance" : "",
+    "slug" : "cannonball-tree"
+  },
+  {
+    "name" : "Canterbury Bells",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/canterbury_bells.jpg",
+    "significance" : "Broadening of the Emotional Centre",
+    "slug" : "canterbury-bells"
+  },
+  {
+    "name" : "Cape Honeysuckle",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cape_honeysuckle.jpg",
+    "significance" : "Power of Truth in the Subconscient",
+    "slug" : "cape-honeysuckle"
+  },
+  {
+    "name" : "Cape Jasmine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cape_jasmine.jpg",
+    "significance" : "",
+    "slug" : "cape-jasmine"
+  },
+  {
+    "name" : "Cape Leadwort",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cape_leadwort.jpg",
+    "significance" : "",
+    "slug" : "cape-leadwort"
+  },
+  {
+    "name" : "Caper Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/caper_tree.jpg",
+    "significance" : "Working of the Enlightened Mind",
+    "slug" : "caper-tree"
+  },
+  {
+    "name" : "Capsicum",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/capsicum.jpg",
+    "significance" : "A Whipping",
+    "slug" : "capsicum"
+  },
+  {
+    "name" : "Cardinal's Guard",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cardinals_guard.jpg",
+    "significance" : "Aspiration for Supramental Guidance in the Subconscient",
+    "slug" : "cardinals-guard"
+  },
+  {
+    "name" : "Caricature Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/caricature_plant.jpg",
+    "significance" : "Vital Impulses",
+    "slug" : "caricature-plant"
+  },
+  {
+    "name" : "Carnation",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/carnation.jpg",
+    "significance" : "Collaboration",
+    "slug" : "carnation"
+  },
+  {
+    "name" : "Cat's Claw",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cats_claw.jpg",
+    "significance" : "Supramental Influence",
+    "slug" : "cats-claw"
+  },
+  {
+    "name" : "Cat's Whiskers",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cats_whiskers.jpg",
+    "significance" : "",
+    "slug" : "cats-whiskers"
+  },
+  {
+    "name" : "Catuaba",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/catuaba.jpg",
+    "significance" : "Voice of the Higher Mind",
+    "slug" : "catuaba"
+  },
+  {
+    "name" : "Ceylon Leadwort",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/ceylon_leadwort.jpg",
+    "significance" : "First Appearance of Purity in the Inconscient",
+    "slug" : "ceylon-leadwort"
+  },
+  {
+    "name" : "Chalice Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/chalice_vine.jpg",
+    "significance" : "Absolute Truthfulness",
+    "slug" : "chalice-vine"
+  },
+  {
+    "name" : "Champaca",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/champaca.jpg",
+    "significance" : "Supramentalised Psychological Perfection",
+    "slug" : "champaca"
+  },
+  {
+    "name" : "Chenille Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/chenille_plant.jpg",
+    "significance" : "Physical Continuity",
+    "slug" : "chenille-plant"
+  },
+  {
+    "name" : "China Aster",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/china_aster.jpg",
+    "significance" : "",
+    "slug" : "china-aster"
+  },
+  {
+    "name" : "China Rose",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/china_rose.jpg",
+    "significance" : "Tenderness for the Divine",
+    "slug" : "china-rose"
+  },
+  {
+    "name" : "Chinaberry",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/chinaberry.jpg",
+    "significance" : "Distinction of the Vital",
+    "slug" : "chinaberry"
+  },
+  {
+    "name" : "Chinese Forget-me-not",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/chinese_forget_me_not.jpg",
+    "significance" : "Subconscient Remembrance",
+    "slug" : "chinese-forget-me-not"
+  },
+  {
+    "name" : "Chinese Hibiscus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/chinese_hibiscus.jpg",
+    "significance" : "",
+    "slug" : "chinese-hibiscus"
+  },
+  {
+    "name" : "Chinese Lantern",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/chinese_lantern.jpg",
+    "significance" : "Sun-drop",
+    "slug" : "chinese-lantern"
+  },
+  {
+    "name" : "Chinese Lavender",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/chinese_lavender.jpg",
+    "significance" : "Thirst to Understand",
+    "slug" : "chinese-lavender"
+  },
+  {
+    "name" : "Chinese Rice Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/chinese_rice_flower.jpg",
+    "significance" : "Mental Suggestions of Organisation",
+    "slug" : "chinese-rice-flower"
+  },
+  {
+    "name" : "Chinese Violet",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/chinese_violet.jpg",
+    "significance" : "",
+    "slug" : "chinese-violet"
+  },
+  {
+    "name" : "Chinese Wisteria",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/chinese_wisteria.jpg",
+    "significance" : "Poetic Ecstasy",
+    "slug" : "chinese-wisteria"
+  },
+  {
+    "name" : "Christmas Candle",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/christmas_candle.jpg",
+    "significance" : "Idea",
+    "slug" : "christmas-candle"
+  },
+  {
+    "name" : "Chrysanthemum",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/chrysanthemum.jpg",
+    "significance" : "Specialised Detailed Energy",
+    "slug" : "chrysanthemum"
+  },
+  {
+    "name" : "Climbing Lang-lang",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/climbing_lang_lang.jpg",
+    "significance" : "",
+    "slug" : "climbing-lang-lang"
+  },
+  {
+    "name" : "Climbing Oleander",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/climbing_oleander.jpg",
+    "significance" : "Radiating Vital Purity",
+    "slug" : "climbing-oleander"
+  },
+  {
+    "name" : "Clover",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/clover.jpg",
+    "significance" : "Kindness of Nature",
+    "slug" : "clover"
+  },
+  {
+    "name" : "Coconut",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/coconut.jpg",
+    "significance" : "Multitude",
+    "slug" : "coconut"
+  },
+  {
+    "name" : "Coffee",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/coffee.jpg",
+    "significance" : "Perfect Path",
+    "slug" : "coffee"
+  },
+  {
+    "name" : "Coleus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/coleus.jpg",
+    "significance" : "",
+    "slug" : "coleus"
+  },
+  {
+    "name" : "Common Allamanda",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/common_allamanda.jpg",
+    "significance" : "Victory",
+    "slug" : "common-allamanda"
+  },
+  {
+    "name" : "Common Basil",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/common_basil.jpg",
+    "significance" : "",
+    "slug" : "common-basil"
+  },
+  {
+    "name" : "Common Broom",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/common_broom.jpg",
+    "significance" : "Inventions",
+    "slug" : "common-broom"
+  },
+  {
+    "name" : "Common Camellia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/common_camellia.jpg",
+    "significance" : "Static Beauty",
+    "slug" : "common-camellia"
+  },
+  {
+    "name" : "Common Cockscomb",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/common_cockscomb.jpg",
+    "significance" : "",
+    "slug" : "common-cockscomb"
+  },
+  {
+    "name" : "Common Foxglove",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/common_foxglove.jpg",
+    "significance" : "Regularity",
+    "slug" : "common-foxglove"
+  },
+  {
+    "name" : "Common Garden Verbena",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/common_garden_verbena.jpg",
+    "significance" : "",
+    "slug" : "common-garden-verbena"
+  },
+  {
+    "name" : "Common Grape Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/common_grape_vine.jpg",
+    "significance" : "Divine Ananda",
+    "slug" : "common-grape-vine"
+  },
+  {
+    "name" : "Common Guava",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/common_guava.jpg",
+    "significance" : "Steadfastness",
+    "slug" : "common-guava"
+  },
+  {
+    "name" : "Common Laburnum",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/common_laburnum.jpg",
+    "significance" : "Descent of the Light",
+    "slug" : "common-laburnum"
+  },
+  {
+    "name" : "Common Marigold",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/common_marigold.jpg",
+    "significance" : "Perseverance",
+    "slug" : "common-marigold"
+  },
+  {
+    "name" : "Common Zinnia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/common_zinnia.jpg",
+    "significance" : "",
+    "slug" : "common-zinnia"
+  },
+  {
+    "name" : "Conifers",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/conifers.jpg",
+    "significance" : "Perpetual Vitality",
+    "slug" : "conifers"
+  },
+  {
+    "name" : "Copper Pod",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/copper_pod.jpg",
+    "significance" : "Service",
+    "slug" : "copper-pod"
+  },
+  {
+    "name" : "Copperleaf",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/copperleaf.jpg",
+    "significance" : "",
+    "slug" : "copperleaf"
+  },
+  {
+    "name" : "Coral Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/coral_plant.jpg",
+    "significance" : "First Appearance of the Psychic in Matter",
+    "slug" : "coral-plant"
+  },
+  {
+    "name" : "Coral Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/coral_tree.jpg",
+    "significance" : "",
+    "slug" : "coral-tree"
+  },
+  {
+    "name" : "Coral Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/coral_vine.jpg",
+    "significance" : "",
+    "slug" : "coral-vine"
+  },
+  {
+    "name" : "Coriander",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/coriander.jpg",
+    "significance" : "Delicacy",
+    "slug" : "coriander"
+  },
+  {
+    "name" : "Corn Poppy",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/corn_poppy.jpg",
+    "significance" : "Spontaneous Joy of Nature",
+    "slug" : "corn-poppy"
+  },
+  {
+    "name" : "Cornflower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cornflower.jpg",
+    "significance" : "Idealism",
+    "slug" : "cornflower"
+  },
+  {
+    "name" : "Cosmos",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cosmos.jpg",
+    "significance" : "Supramental Influence in the Sex Centre",
+    "slug" : "cosmos"
+  },
+  {
+    "name" : "Cotton",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cotton.jpg",
+    "significance" : "Material Abundance",
+    "slug" : "cotton"
+  },
+  {
+    "name" : "Cotton Rosemallow",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cotton_rosemallow.jpg",
+    "significance" : "",
+    "slug" : "cotton-rosemallow"
+  },
+  {
+    "name" : "Country Gooseberry",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/country_gooseberry.jpg",
+    "significance" : "Absence of Desire",
+    "slug" : "country-gooseberry"
+  },
+  {
+    "name" : "Cowslip Creeper",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cowslip_creeper.jpg",
+    "significance" : "Vital Plentitude",
+    "slug" : "cowslip-creeper"
+  },
+  {
+    "name" : "Crape Myrtle",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/crape_myrtle.jpg",
+    "significance" : "",
+    "slug" : "crape-myrtle"
+  },
+  {
+    "name" : "Creeping Daisy",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/creeping_daisy.jpg",
+    "significance" : "Integral Simplicity",
+    "slug" : "creeping-daisy"
+  },
+  {
+    "name" : "Creeping Zinnia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/creeping_zinnia.jpg",
+    "significance" : "Detailed Endurance",
+    "slug" : "creeping-zinnia"
+  },
+  {
+    "name" : "Crepe Jasmine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/crepe_jasmine.jpg",
+    "significance" : "",
+    "slug" : "crepe-jasmine"
+  },
+  {
+    "name" : "Crinum Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/crinum_lily.jpg",
+    "significance" : "",
+    "slug" : "crinum-lily"
+  },
+  {
+    "name" : "Croton",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/croton.jpg",
+    "significance" : "Power to Reject Adverse Suggestions",
+    "slug" : "croton"
+  },
+  {
+    "name" : "Crown of Thorns",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/crown_of_thorns.jpg",
+    "significance" : "Concentration",
+    "slug" : "crown-of-thorns"
+  },
+  {
+    "name" : "Cup-and-saucer",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cup_and_saucer.jpg",
+    "significance" : "Joy's Call",
+    "slug" : "cup-and-saucer"
+  },
+  {
+    "name" : "Cup-and-saucer Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cup_and_saucer_plant.jpg",
+    "significance" : "",
+    "slug" : "cup-and-saucer-plant"
+  },
+  {
+    "name" : "Cupflower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cupflower.jpg",
+    "significance" : "Vital Joy in Matter",
+    "slug" : "cupflower"
+  },
+  {
+    "name" : "Curtain Creeper",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/curtain_creeper.jpg",
+    "significance" : "Aspiration for the Divine Consciousness",
+    "slug" : "curtain-creeper"
+  },
+  {
+    "name" : "Cypress Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/cypress_vine.jpg",
+    "significance" : "Love in the Physical for the Divine",
+    "slug" : "cypress-vine"
+  },
+  {
+    "name" : "Daffodil",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/daffodil.jpg",
+    "significance" : "Power of Beauty",
+    "slug" : "daffodil"
+  },
+  {
+    "name" : "Dahlia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/dahlia.jpg",
+    "significance" : "",
+    "slug" : "dahlia"
+  },
+  {
+    "name" : "Dayflower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/dayflower.jpg",
+    "significance" : "",
+    "slug" : "dayflower"
+  },
+  {
+    "name" : "Dill",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/dill.jpg",
+    "significance" : "Light in the Blood",
+    "slug" : "dill"
+  },
+  {
+    "name" : "Divaricate Typhonium",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/divaricate_typhonium.jpg",
+    "significance" : "Gossip",
+    "slug" : "divaricate-typhonium"
+  },
+  {
+    "name" : "Divi Divi",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/divi_divi.jpg",
+    "significance" : "Intuitive Knowledge",
+    "slug" : "divi-divi"
+  },
+  {
+    "name" : "Dog Rose",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/dog_rose.jpg",
+    "significance" : "Psychic Soaring of Nature",
+    "slug" : "dog-rose"
+  },
+  {
+    "name" : "Dropseed",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/dropseed.jpg",
+    "significance" : "Humility",
+    "slug" : "dropseed"
+  },
+  {
+    "name" : "Dutchman's Pipe",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/dutchmans_pipe.jpg",
+    "significance" : "Lasting Inspiration",
+    "slug" : "dutchmans-pipe"
+  },
+  {
+    "name" : "Dwarf White Bauhinia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/dwarf_white_bauhinia.jpg",
+    "significance" : "Purified Gold",
+    "slug" : "dwarf-white-bauhinia"
+  },
+  {
+    "name" : "Easter Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/easter_tree.jpg",
+    "significance" : "Psychic Peace",
+    "slug" : "easter-tree"
+  },
+  {
+    "name" : "Edelweiss",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/edelweiss.jpg",
+    "significance" : "Spiritual Beauty",
+    "slug" : "edelweiss"
+  },
+  {
+    "name" : "Edging Lobelia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/edging_lobelia.jpg",
+    "significance" : "Remembrance of Sri Aurobindo",
+    "slug" : "edging-lobelia"
+  },
+  {
+    "name" : "Eggplant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/eggplant.jpg",
+    "significance" : "",
+    "slug" : "eggplant"
+  },
+  {
+    "name" : "Egyptian Star Cluster",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/egyptian_star_cluster.jpg",
+    "significance" : "Mental Goodwill",
+    "slug" : "egyptian-star-cluster"
+  },
+  {
+    "name" : "Elder",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/elder.jpg",
+    "significance" : "Charm",
+    "slug" : "elder"
+  },
+  {
+    "name" : "Elephant's Ear",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/elephants_ear.jpg",
+    "significance" : "Transformed Sex Centre",
+    "slug" : "elephants-ear"
+  },
+  {
+    "name" : "Eucalyptus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/eucalyptus.jpg",
+    "significance" : "Abolition of the Ego",
+    "slug" : "eucalyptus"
+  },
+  {
+    "name" : "Fairy Rose",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/fairy_rose.jpg",
+    "significance" : "Detailed Surrender",
+    "slug" : "fairy-rose"
+  },
+  {
+    "name" : "False Bird of Paradise",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/false_bird_of_paradise.jpg",
+    "significance" : "Bird of Paradise",
+    "slug" : "false-bird-of-paradise"
+  },
+  {
+    "name" : "Farewell to Spring",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/farewell_to_spring.jpg",
+    "significance" : "Glad Remembrance",
+    "slug" : "farewell-to-spring"
+  },
+  {
+    "name" : "Feathered Amaranth",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/feathered_amaranth.jpg",
+    "significance" : "",
+    "slug" : "feathered-amaranth"
+  },
+  {
+    "name" : "Fennel",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/fennel.jpg",
+    "significance" : "Light in the Blood",
+    "slug" : "fennel"
+  },
+  {
+    "name" : "Fiddle Wood",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/fiddle_wood.jpg",
+    "significance" : "Spiritual Ascension",
+    "slug" : "fiddle-wood"
+  },
+  {
+    "name" : "Finger-grass",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/finger_grass.jpg",
+    "significance" : "Repentance",
+    "slug" : "finger-grass"
+  },
+  {
+    "name" : "Firecracker Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/firecracker_flower.jpg",
+    "significance" : "",
+    "slug" : "firecracker-flower"
+  },
+  {
+    "name" : "Firespike",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/firespike.jpg",
+    "significance" : "Matter Aspiring for the Supramental Guidance",
+    "slug" : "firespike"
+  },
+  {
+    "name" : "Fish Poison Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/fish_poison_tree.jpg",
+    "significance" : "Supramental Action",
+    "slug" : "fish-poison-tree"
+  },
+  {
+    "name" : "Flag",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/flag.jpg",
+    "significance" : "Aristocracy of Beauty",
+    "slug" : "flag"
+  },
+  {
+    "name" : "Flame Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/flame_vine.jpg",
+    "significance" : "True Action in the Material Vital",
+    "slug" : "flame-vine"
+  },
+  {
+    "name" : "Flame Violet",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/flame_violet.jpg",
+    "significance" : "Will Manifested in Life",
+    "slug" : "flame-violet"
+  },
+  {
+    "name" : "Flame of the Forest",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/flame_of_the_forest.jpg",
+    "significance" : "Beginning of the Supramental Realisation",
+    "slug" : "flame-of-the-forest"
+  },
+  {
+    "name" : "Flaming Glory Bower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/flaming_glory_bower.jpg",
+    "significance" : "Right Attitude Established",
+    "slug" : "flaming-glory-bower"
+  },
+  {
+    "name" : "Flamingo Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/flamingo_flower.jpg",
+    "significance" : "",
+    "slug" : "flamingo-flower"
+  },
+  {
+    "name" : "Flora's Paintbrush",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/floras_paintbrush.jpg",
+    "significance" : "",
+    "slug" : "floras-paintbrush"
+  },
+  {
+    "name" : "Florists' Chrysanthemum",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/florists_chrysanthemum.jpg",
+    "significance" : "",
+    "slug" : "florists-chrysanthemum"
+  },
+  {
+    "name" : "Florists' Gloxinia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/florists_gloxinia.jpg",
+    "significance" : "",
+    "slug" : "florists-gloxinia"
+  },
+  {
+    "name" : "Flossflower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/flossflower.jpg",
+    "significance" : "Vital Patience",
+    "slug" : "flossflower"
+  },
+  {
+    "name" : "Flowering Flax",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/flowering_flax.jpg",
+    "significance" : "Good Temper",
+    "slug" : "flowering-flax"
+  },
+  {
+    "name" : "Flowering Maple",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/flowering_maple.jpg",
+    "significance" : "",
+    "slug" : "flowering-maple"
+  },
+  {
+    "name" : "Forest Aganosma",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/forest_aganosma.jpg",
+    "significance" : "Rising Star",
+    "slug" : "forest-aganosma"
+  },
+  {
+    "name" : "Fountain Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/fountain_plant.jpg",
+    "significance" : "Aspiration in the Physical for the Divine Love",
+    "slug" : "fountain-plant"
+  },
+  {
+    "name" : "Frangipani",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/frangipani.jpg",
+    "significance" : "",
+    "slug" : "frangipani"
+  },
+  {
+    "name" : "Frangipani Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/frangipani_vine.jpg",
+    "significance" : "Perfect Radiating Psychology",
+    "slug" : "frangipani-vine"
+  },
+  {
+    "name" : "French Marigold",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/french_marigold.jpg",
+    "significance" : "",
+    "slug" : "french-marigold"
+  },
+  {
+    "name" : "Garden Balsam",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/garden_balsam.jpg",
+    "significance" : "",
+    "slug" : "garden-balsam"
+  },
+  {
+    "name" : "Garden Cosmos",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/garden_cosmos.jpg",
+    "significance" : "Tranquility of the Sex Centre when it is under the Influence of the Supramental Light",
+    "slug" : "garden-cosmos"
+  },
+  {
+    "name" : "Garden Forget-me-not",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/garden_forget_me_not.jpg",
+    "significance" : "Lasting Remembrance",
+    "slug" : "garden-forget-me-not"
+  },
+  {
+    "name" : "Garden Gladiolus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/garden_gladiolus.jpg",
+    "significance" : "",
+    "slug" : "garden-gladiolus"
+  },
+  {
+    "name" : "Garden Lupine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/garden_lupine.jpg",
+    "significance" : "Stages to the Supreme",
+    "slug" : "garden-lupine"
+  },
+  {
+    "name" : "Garlic Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/garlic_vine.jpg",
+    "significance" : "Collective Emotions Open to the Divine",
+    "slug" : "garlic-vine"
+  },
+  {
+    "name" : "Geiger Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/geiger_tree.jpg",
+    "significance" : "Adoration",
+    "slug" : "geiger-tree"
+  },
+  {
+    "name" : "Geranium",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/geranium.jpg",
+    "significance" : "Spiritual Happiness",
+    "slug" : "geranium"
+  },
+  {
+    "name" : "Giant Squill",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/giant_squill.jpg",
+    "significance" : "Road to the Divine",
+    "slug" : "giant-squill"
+  },
+  {
+    "name" : "Ginger Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/ginger_lily.jpg",
+    "significance" : "Sachchidananda",
+    "slug" : "ginger-lily"
+  },
+  {
+    "name" : "Globe Amaranth",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/globe_amaranth.jpg",
+    "significance" : "",
+    "slug" : "globe-amaranth"
+  },
+  {
+    "name" : "Glory Bower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/glory_bower.jpg",
+    "significance" : "Integrally Equal Basis in the Physical",
+    "slug" : "glory-bower"
+  },
+  {
+    "name" : "Glory Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/glory_lily.jpg",
+    "significance" : "No Quarrels",
+    "slug" : "glory-lily"
+  },
+  {
+    "name" : "Glow Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/glow_vine.jpg",
+    "significance" : "Vital Opening",
+    "slug" : "glow-vine"
+  },
+  {
+    "name" : "Glush Weed",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/glush_weed.jpg",
+    "significance" : "Heroic Action",
+    "slug" : "glush-weed"
+  },
+  {
+    "name" : "Gold Medallion Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/gold_medallion_flower.jpg",
+    "significance" : "Birth of True Mental Sincerity",
+    "slug" : "gold-medallion-flower"
+  },
+  {
+    "name" : "Golden Eye Grass",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/golden_eye_grass.jpg",
+    "significance" : "Attraction for the Light",
+    "slug" : "golden-eye-grass"
+  },
+  {
+    "name" : "Golden Fleece",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/golden_fleece.jpg",
+    "significance" : "Mental Simplicity",
+    "slug" : "golden-fleece"
+  },
+  {
+    "name" : "Golden Hurricane Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/golden_hurricane_lily.jpg",
+    "significance" : "Conversion of the Higher Mind",
+    "slug" : "golden-hurricane-lily"
+  },
+  {
+    "name" : "Golden Shower Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/golden_shower_tree.jpg",
+    "significance" : "Imagination",
+    "slug" : "golden-shower-tree"
+  },
+  {
+    "name" : "Goldenrod",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/goldenrod.jpg",
+    "significance" : "Mental Sincerity",
+    "slug" : "goldenrod"
+  },
+  {
+    "name" : "Gout Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/gout_plant.jpg",
+    "significance" : "First Response of the Subconscient to the Supramental Action",
+    "slug" : "gout-plant"
+  },
+  {
+    "name" : "Greater Burnet-saxifrage",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/greater_burnet_saxifrage.jpg",
+    "significance" : "Purity in the Blood",
+    "slug" : "greater-burnet-saxifrage"
+  },
+  {
+    "name" : "Green Ebony",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/green_ebony.jpg",
+    "significance" : "Attempt at Vital Goodwill",
+    "slug" : "green-ebony"
+  },
+  {
+    "name" : "Green Rose",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/green_rose.jpg",
+    "significance" : "Timidity in Attachment to the Divine",
+    "slug" : "green-rose"
+  },
+  {
+    "name" : "Groundsel",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/groundsel.jpg",
+    "significance" : "Observation",
+    "slug" : "groundsel"
+  },
+  {
+    "name" : "Guernsey Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/guernsey_lily.jpg",
+    "significance" : "Exclusivism",
+    "slug" : "guernsey-lily"
+  },
+  {
+    "name" : "Guest Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/guest_tree.jpg",
+    "significance" : "Joy in Fairyland",
+    "slug" : "guest-tree"
+  },
+  {
+    "name" : "Hairyflower Wild Petunia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/hairyflower_wild_petunia.jpg",
+    "significance" : "Krishna's Light in the Physical Mind",
+    "slug" : "hairyflower-wild-petunia"
+  },
+  {
+    "name" : "Hawthorn",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/hawthorn.jpg",
+    "significance" : "Spring Purity",
+    "slug" : "hawthorn"
+  },
+  {
+    "name" : "Heliotrope",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/heliotrope.jpg",
+    "significance" : "Vital Consecration",
+    "slug" : "heliotrope"
+  },
+  {
+    "name" : "Henna",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/henna.jpg",
+    "significance" : "Energy turned towards the Divine",
+    "slug" : "henna"
+  },
+  {
+    "name" : "Hiptage",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/hiptage.jpg",
+    "significance" : "Spiritual Success",
+    "slug" : "hiptage"
+  },
+  {
+    "name" : "Hoary Basil",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/hoary_basil.jpg",
+    "significance" : "Conquering Fervour",
+    "slug" : "hoary-basil"
+  },
+  {
+    "name" : "Holly",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/holly.jpg",
+    "significance" : "Courageous Goodwill",
+    "slug" : "holly"
+  },
+  {
+    "name" : "Hollyhock",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/hollyhock.jpg",
+    "significance" : "",
+    "slug" : "hollyhock"
+  },
+  {
+    "name" : "Holy Basil",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/holy_basil.jpg",
+    "significance" : "Devotion",
+    "slug" : "holy-basil"
+  },
+  {
+    "name" : "Honey Mesquite",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/honey_mesquite.jpg",
+    "significance" : "Logic in Thoughts",
+    "slug" : "honey-mesquite"
+  },
+  {
+    "name" : "Honey Suckled Mistletoe",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/honey_suckled_mistletoe.jpg",
+    "significance" : "Mental Spirit of Imitation",
+    "slug" : "honey-suckled-mistletoe"
+  },
+  {
+    "name" : "Hopbush",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/hopbush.jpg",
+    "significance" : "Psychic Awakening in Matter",
+    "slug" : "hopbush"
+  },
+  {
+    "name" : "Horse Radish Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/horse_radish_tree.jpg",
+    "significance" : "Hygienic Organisation",
+    "slug" : "horse-radish-tree"
+  },
+  {
+    "name" : "Hyacinth",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/hyacinth.jpg",
+    "significance" : "Pride of Beauty",
+    "slug" : "hyacinth"
+  },
+  {
+    "name" : "Hydrangea",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/hydrangea.jpg",
+    "significance" : "Collective Harmony",
+    "slug" : "hydrangea"
+  },
+  {
+    "name" : "Indian Blanket",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/indian_blanket.jpg",
+    "significance" : "",
+    "slug" : "indian-blanket"
+  },
+  {
+    "name" : "Indian Cork Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/indian_cork_tree.jpg",
+    "significance" : "Transformation",
+    "slug" : "indian-cork-tree"
+  },
+  {
+    "name" : "Indian Leadwort",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/indian_leadwort.jpg",
+    "significance" : "Organisation of the Being around the Psychic",
+    "slug" : "indian-leadwort"
+  },
+  {
+    "name" : "Indian Mulberry",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/indian_mulberry.jpg",
+    "significance" : "Peace in the Sex Centre",
+    "slug" : "indian-mulberry"
+  },
+  {
+    "name" : "Indian Pavetta",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/indian_pavetta.jpg",
+    "significance" : "Radiating Peace in the Cells",
+    "slug" : "indian-pavetta"
+  },
+  {
+    "name" : "Indian Privet",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/indian_privet.jpg",
+    "significance" : "Perfect Planning of Work",
+    "slug" : "indian-privet"
+  },
+  {
+    "name" : "Indian Red Water Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/indian_red_water_lily.jpg",
+    "significance" : "Wealth in the Vital",
+    "slug" : "indian-red-water-lily"
+  },
+  {
+    "name" : "Indian-shot",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/indian_shot.jpg",
+    "significance" : "",
+    "slug" : "indian-shot"
+  },
+  {
+    "name" : "Indigoberry",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/indigoberry.jpg",
+    "significance" : "Order",
+    "slug" : "indigoberry"
+  },
+  {
+    "name" : "Ironwood",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/ironwood.jpg",
+    "significance" : "Miracle (Air of Auroville)",
+    "slug" : "ironwood"
+  },
+  {
+    "name" : "Italian Aster",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/italian_aster.jpg",
+    "significance" : "",
+    "slug" : "italian-aster"
+  },
+  {
+    "name" : "Italian Yellow Jasmine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/italian_yellow_jasmine.jpg",
+    "significance" : "Correct Self-evaluation \/ Self-estimation",
+    "slug" : "italian-yellow-jasmine"
+  },
+  {
+    "name" : "Ivy",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/ivy.jpg",
+    "significance" : "Lasting Attachment",
+    "slug" : "ivy"
+  },
+  {
+    "name" : "Ixora",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/ixora.jpg",
+    "significance" : "Psychic Aspiration",
+    "slug" : "ixora"
+  },
+  {
+    "name" : "Japanese Hibiscus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/japanese_hibiscus.jpg",
+    "significance" : "Flame",
+    "slug" : "japanese-hibiscus"
+  },
+  {
+    "name" : "Japanese Honeysuckle",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/japanese_honeysuckle.jpg",
+    "significance" : "Constant Remembrance of the Divine",
+    "slug" : "japanese-honeysuckle"
+  },
+  {
+    "name" : "Japanese Snowball",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/japanese_snowball.jpg",
+    "significance" : "Collective Purity",
+    "slug" : "japanese-snowball"
+  },
+  {
+    "name" : "Jasmine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/jasmine.jpg",
+    "significance" : "",
+    "slug" : "jasmine"
+  },
+  {
+    "name" : "Jasmine Tobacco",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/jasmine_tobacco.jpg",
+    "significance" : "Common Sense",
+    "slug" : "jasmine-tobacco"
+  },
+  {
+    "name" : "Java Glory Bean",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/java_glory_bean.jpg",
+    "significance" : "Aspiration for the Right Attitude",
+    "slug" : "java-glory-bean"
+  },
+  {
+    "name" : "Javanese Glory Bower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/javanese_glory_bower.jpg",
+    "significance" : "Right Attitude",
+    "slug" : "javanese-glory-bower"
+  },
+  {
+    "name" : "Javanese Ixora",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/javanese_ixora.jpg",
+    "significance" : "Aspiration in the Physical for the Supramental Light",
+    "slug" : "javanese-ixora"
+  },
+  {
+    "name" : "Javanese Wool Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/javanese_wool_plant.jpg",
+    "significance" : "Aspiration for Integral Immortality",
+    "slug" : "javanese-wool-plant"
+  },
+  {
+    "name" : "Jerusalem Thorn",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/jerusalem_thorn.jpg",
+    "significance" : "Lightness",
+    "slug" : "jerusalem-thorn"
+  },
+  {
+    "name" : "Jewels of Opar",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/jewels_of_opar.jpg",
+    "significance" : "Vital Fantasy",
+    "slug" : "jewels-of-opar"
+  },
+  {
+    "name" : "Joyweed",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/joyweed.jpg",
+    "significance" : "Integral Immortality",
+    "slug" : "joyweed"
+  },
+  {
+    "name" : "Jungle Geranium",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/jungle_geranium.jpg",
+    "significance" : "",
+    "slug" : "jungle-geranium"
+  },
+  {
+    "name" : "Kadam Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/kadam_tree.jpg",
+    "significance" : "Supramental Sun",
+    "slug" : "kadam-tree"
+  },
+  {
+    "name" : "Kaffir Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/kaffir_lily.jpg",
+    "significance" : "Conversion of the Aim of Life from the Ego to the Divine",
+    "slug" : "kaffir-lily"
+  },
+  {
+    "name" : "King's Mantle",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/kings_mantle.jpg",
+    "significance" : "",
+    "slug" : "kings-mantle"
+  },
+  {
+    "name" : "Knotweed",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/knotweed.jpg",
+    "significance" : "Vital Aspiration for the Union with the Divine",
+    "slug" : "knotweed"
+  },
+  {
+    "name" : "Ladies' Fingers",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/ladies_fingers.jpg",
+    "significance" : "Mentalised Power",
+    "slug" : "ladies-fingers"
+  },
+  {
+    "name" : "Lady of the Night",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/lady_of_the_night.jpg",
+    "significance" : "Resolution",
+    "slug" : "lady-of-the-night"
+  },
+  {
+    "name" : "Lady's Eardrops",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/ladys_eardrops.jpg",
+    "significance" : "Art",
+    "slug" : "ladys-eardrops"
+  },
+  {
+    "name" : "Large-flowered Magnolia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/large_flowered_magnolia.jpg",
+    "significance" : "Perfect Vigilance",
+    "slug" : "large-flowered-magnolia"
+  },
+  {
+    "name" : "Larkspur",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/larkspur.jpg",
+    "significance" : "Soaring",
+    "slug" : "larkspur"
+  },
+  {
+    "name" : "Lead Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/lead_tree.jpg",
+    "significance" : "Knowledge",
+    "slug" : "lead-tree"
+  },
+  {
+    "name" : "Leaf Cactus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/leaf_cactus.jpg",
+    "significance" : "Never Tell a Lie",
+    "slug" : "leaf-cactus"
+  },
+  {
+    "name" : "Leather Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/leather_flower.jpg",
+    "significance" : "Sentry",
+    "slug" : "leather-flower"
+  },
+  {
+    "name" : "Lemon",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/lemon.jpg",
+    "significance" : "Chastity",
+    "slug" : "lemon"
+  },
+  {
+    "name" : "Lemongrass",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/lemongrass.jpg",
+    "significance" : "Help",
+    "slug" : "lemongrass"
+  },
+  {
+    "name" : "Lemonia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/lemonia.jpg",
+    "significance" : "Happy Heart",
+    "slug" : "lemonia"
+  },
+  {
+    "name" : "Lesser Mallow",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/lesser_mallow.jpg",
+    "significance" : "Eternal Youth",
+    "slug" : "lesser-mallow"
+  },
+  {
+    "name" : "Lilac",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/lilac.jpg",
+    "significance" : "Distinction",
+    "slug" : "lilac"
+  },
+  {
+    "name" : "Lily Thorn",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/lily_thorn.jpg",
+    "significance" : "Certitude of Victory",
+    "slug" : "lily-thorn"
+  },
+  {
+    "name" : "Lily of the Valley",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/lily_of_the_valley.jpg",
+    "significance" : "Power of Purity",
+    "slug" : "lily-of-the-valley"
+  },
+  {
+    "name" : "Ling",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/ling.jpg",
+    "significance" : "Blossoming of Nature",
+    "slug" : "ling"
+  },
+  {
+    "name" : "Lion's Ear",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/lions_ear.jpg",
+    "significance" : "Ascension",
+    "slug" : "lions-ear"
+  },
+  {
+    "name" : "Logwood",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/logwood.jpg",
+    "significance" : "Fairy Freshness",
+    "slug" : "logwood"
+  },
+  {
+    "name" : "Madagascar Periwinkle",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/madagascar_periwinkle.jpg",
+    "significance" : "",
+    "slug" : "madagascar-periwinkle"
+  },
+  {
+    "name" : "Madamfate",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/madamfate.jpg",
+    "significance" : "Divine Purity",
+    "slug" : "madamfate"
+  },
+  {
+    "name" : "Madonna Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/madonna_lily.jpg",
+    "significance" : "Purity Arising from Perfect Consecration",
+    "slug" : "madonna-lily"
+  },
+  {
+    "name" : "Madre de Cacao",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/madre_de_cacao.jpg",
+    "significance" : "Refinement of Habits",
+    "slug" : "madre-de-cacao"
+  },
+  {
+    "name" : "Maiden's Jealousy",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/maidens_jealousy.jpg",
+    "significance" : "Mental Honesty",
+    "slug" : "maidens-jealousy"
+  },
+  {
+    "name" : "Mango",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/mango.jpg",
+    "significance" : "",
+    "slug" : "mango"
+  },
+  {
+    "name" : "Maple",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/maple.jpg",
+    "significance" : "Flame of Aspiration",
+    "slug" : "maple"
+  },
+  {
+    "name" : "Maple-leaved Bayur",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/maple_leaved_bayur.jpg",
+    "significance" : "Realisation of the Supramental Riches",
+    "slug" : "maple-leaved-bayur"
+  },
+  {
+    "name" : "Marigold",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/marigold.jpg",
+    "significance" : "Plasticity",
+    "slug" : "marigold"
+  },
+  {
+    "name" : "Marvel of Peru",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/marvel_of_peru.jpg",
+    "significance" : "",
+    "slug" : "marvel-of-peru"
+  },
+  {
+    "name" : "Meadow Weed",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/meadow_weed.jpg",
+    "significance" : "Krishna's Light in the Vital",
+    "slug" : "meadow-weed"
+  },
+  {
+    "name" : "Mealy Sage",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/mealy_sage.jpg",
+    "significance" : "Krishna's Light in the Overmind",
+    "slug" : "mealy-sage"
+  },
+  {
+    "name" : "Mexican Bush Sage",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/mexican_bush_sage.jpg",
+    "significance" : "The Vital Consenting to be Spiritualised",
+    "slug" : "mexican-bush-sage"
+  },
+  {
+    "name" : "Mexican Sunflower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/mexican_sunflower.jpg",
+    "significance" : "Physical Consciousness turned entirely towards the Divine",
+    "slug" : "mexican-sunflower"
+  },
+  {
+    "name" : "Midday Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/midday_flower.jpg",
+    "significance" : "Vigilance",
+    "slug" : "midday-flower"
+  },
+  {
+    "name" : "Mignonette",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/mignonette.jpg",
+    "significance" : "Benevolence",
+    "slug" : "mignonette"
+  },
+  {
+    "name" : "Mile-a-minute Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/mile_a_minute_plant.jpg",
+    "significance" : "Nature Aspires to be Supramentalised",
+    "slug" : "mile-a-minute-plant"
+  },
+  {
+    "name" : "Milky Way Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/milky_way_tree.jpg",
+    "significance" : "Purity in Action",
+    "slug" : "milky-way-tree"
+  },
+  {
+    "name" : "Mimosa Bush",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/mimosa_bush.jpg",
+    "significance" : "Supramental Knowledge",
+    "slug" : "mimosa-bush"
+  },
+  {
+    "name" : "Miniature Holly",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/miniature_holly.jpg",
+    "significance" : "Sensitivity",
+    "slug" : "miniature-holly"
+  },
+  {
+    "name" : "Mistletoe",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/mistletoe.jpg",
+    "significance" : "Sign of the Spirit",
+    "slug" : "mistletoe"
+  },
+  {
+    "name" : "Monkey-faced Pansy",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/monkey_faced_pansy.jpg",
+    "significance" : "Silence in the Vital",
+    "slug" : "monkey-faced-pansy"
+  },
+  {
+    "name" : "Moonflower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/moonflower.jpg",
+    "significance" : "Entire Self-giving",
+    "slug" : "moonflower"
+  },
+  {
+    "name" : "Moreton Bay Chestnut",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/moreton_bay_chestnut.jpg",
+    "significance" : "Mind of Light Acting in Matter",
+    "slug" : "moreton-bay-chestnut"
+  },
+  {
+    "name" : "Morning Glory",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/morning_glory.jpg",
+    "significance" : "",
+    "slug" : "morning-glory"
+  },
+  {
+    "name" : "Moss Verbena",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/moss_verbena.jpg",
+    "significance" : "",
+    "slug" : "moss-verbena"
+  },
+  {
+    "name" : "Mountain Thistle",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/mountain_thistle.jpg",
+    "significance" : "Emotions Awake to the First Contact with the Divine",
+    "slug" : "mountain-thistle"
+  },
+  {
+    "name" : "Mudar",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/mudar.jpg",
+    "significance" : "",
+    "slug" : "mudar"
+  },
+  {
+    "name" : "Mungo Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/mungo_tree.jpg",
+    "significance" : "Boastfulness",
+    "slug" : "mungo-tree"
+  },
+  {
+    "name" : "Myrtle",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/myrtle.jpg",
+    "significance" : "To Live Only for the Divine",
+    "slug" : "myrtle"
+  },
+  {
+    "name" : "Nasturtium",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/nasturtium.jpg",
+    "significance" : "",
+    "slug" : "nasturtium"
+  },
+  {
+    "name" : "Neem",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/neem.jpg",
+    "significance" : "Spiritual Atmosphere",
+    "slug" : "neem"
+  },
+  {
+    "name" : "Nepal Trumpet Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/nepal_trumpet_flower.jpg",
+    "significance" : "Unselfishness",
+    "slug" : "nepal-trumpet-flower"
+  },
+  {
+    "name" : "Nerve Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/nerve_plant.jpg",
+    "significance" : "Application",
+    "slug" : "nerve-plant"
+  },
+  {
+    "name" : "Night Blooming Cereus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/night_blooming_cereus.jpg",
+    "significance" : "Supramental Riches",
+    "slug" : "night-blooming-cereus"
+  },
+  {
+    "name" : "Night Jessamine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/night_jessamine.jpg",
+    "significance" : "Light",
+    "slug" : "night-jessamine"
+  },
+  {
+    "name" : "Oleander",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/oleander.jpg",
+    "significance" : "",
+    "slug" : "oleander"
+  },
+  {
+    "name" : "Orange Jessamine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/orange_jessamine.jpg",
+    "significance" : "Peace in the Vital",
+    "slug" : "orange-jessamine"
+  },
+  {
+    "name" : "Orange Trumpet",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/orange_trumpet.jpg",
+    "significance" : "Supramental Rain",
+    "slug" : "orange-trumpet"
+  },
+  {
+    "name" : "Orchid",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/orchid.jpg",
+    "significance" : "Attachment to the Divine",
+    "slug" : "orchid"
+  },
+  {
+    "name" : "Orchid Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/orchid_tree.jpg",
+    "significance" : "Vital Contentment",
+    "slug" : "orchid-tree"
+  },
+  {
+    "name" : "Oriental Cherry",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/oriental_cherry.jpg",
+    "significance" : "Smile of Beauty",
+    "slug" : "oriental-cherry"
+  },
+  {
+    "name" : "Ox-eye Daisy",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/ox_eye_daisy.jpg",
+    "significance" : "Spontaneous Aspiration of Nature towards the Divine",
+    "slug" : "ox-eye-daisy"
+  },
+  {
+    "name" : "Oyster Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/oyster_plant.jpg",
+    "significance" : "Divine Presence",
+    "slug" : "oyster-plant"
+  },
+  {
+    "name" : "Pagoda Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pagoda_flower.jpg",
+    "significance" : "Grouping",
+    "slug" : "pagoda-flower"
+  },
+  {
+    "name" : "Painted Leaf",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/painted_leaf.jpg",
+    "significance" : "Opening of the Vital to the Divine Love",
+    "slug" : "painted-leaf"
+  },
+  {
+    "name" : "Pala Indigo Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pala_indigo_plant.jpg",
+    "significance" : "Religious Thought",
+    "slug" : "pala-indigo-plant"
+  },
+  {
+    "name" : "Pandanus Palm",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pandanus_palm.jpg",
+    "significance" : "Spiritual Perfume",
+    "slug" : "pandanus-palm"
+  },
+  {
+    "name" : "Pansy",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pansy.jpg",
+    "significance" : "",
+    "slug" : "pansy"
+  },
+  {
+    "name" : "Passion Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/passion_flower.jpg",
+    "significance" : "Silence",
+    "slug" : "passion-flower"
+  },
+  {
+    "name" : "Pastel Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pastel_flower.jpg",
+    "significance" : "",
+    "slug" : "pastel-flower"
+  },
+  {
+    "name" : "Patience Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/patience_plant.jpg",
+    "significance" : "Works of Love",
+    "slug" : "patience-plant"
+  },
+  {
+    "name" : "Peace Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/peace_lily.jpg",
+    "significance" : "Aspiration for Purity",
+    "slug" : "peace-lily"
+  },
+  {
+    "name" : "Peacock Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/peacock_flower.jpg",
+    "significance" : "Realisation",
+    "slug" : "peacock-flower"
+  },
+  {
+    "name" : "Peacock Ginger",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/peacock_ginger.jpg",
+    "significance" : "Refined Taste",
+    "slug" : "peacock-ginger"
+  },
+  {
+    "name" : "Peacock Orchid",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/peacock_orchid.jpg",
+    "significance" : "The Vital's Possibility of Perfection",
+    "slug" : "peacock-orchid"
+  },
+  {
+    "name" : "Peony",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/peony.jpg",
+    "significance" : "Beauty in Art",
+    "slug" : "peony"
+  },
+  {
+    "name" : "Peregrina",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/peregrina.jpg",
+    "significance" : "Awakening and First Response of Nature to the Supramental Manifestation",
+    "slug" : "peregrina"
+  },
+  {
+    "name" : "Perfumed Passion Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/perfumed_passion_flower.jpg",
+    "significance" : "Power Aspiring to become an Instrument for the Divine Work",
+    "slug" : "perfumed-passion-flower"
+  },
+  {
+    "name" : "Persian Shield",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/persian_shield.jpg",
+    "significance" : "Power of Perfect Endurance",
+    "slug" : "persian-shield"
+  },
+  {
+    "name" : "Persian Violet",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/persian_violet.jpg",
+    "significance" : "Scented Marvel",
+    "slug" : "persian-violet"
+  },
+  {
+    "name" : "Petunia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/petunia.jpg",
+    "significance" : "",
+    "slug" : "petunia"
+  },
+  {
+    "name" : "Philippine Violet",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/philippine_violet.jpg",
+    "significance" : "",
+    "slug" : "philippine-violet"
+  },
+  {
+    "name" : "Pigeon Berry",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pigeon_berry.jpg",
+    "significance" : "",
+    "slug" : "pigeon-berry"
+  },
+  {
+    "name" : "Pincushion Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pincushion_flower.jpg",
+    "significance" : "",
+    "slug" : "pincushion-flower"
+  },
+  {
+    "name" : "Pink Ball Dombeya",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pink_ball_dombeya.jpg",
+    "significance" : "Conquest over the Greed for Food",
+    "slug" : "pink-ball-dombeya"
+  },
+  {
+    "name" : "Pink Morning Glory",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pink_morning_glory.jpg",
+    "significance" : "Gratitude",
+    "slug" : "pink-morning-glory"
+  },
+  {
+    "name" : "Pink Shower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pink_shower.jpg",
+    "significance" : "Psychic Work",
+    "slug" : "pink-shower"
+  },
+  {
+    "name" : "Pink Trumpet Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pink_trumpet_vine.jpg",
+    "significance" : "To Know how to Listen",
+    "slug" : "pink-trumpet-vine"
+  },
+  {
+    "name" : "Poet's Narcissus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/poets_narcissus.jpg",
+    "significance" : "Beauty Aspiring for the Supramental Realisation",
+    "slug" : "poets-narcissus"
+  },
+  {
+    "name" : "Poinsettia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/poinsettia.jpg",
+    "significance" : "Opening of the Vital to the Divine Love",
+    "slug" : "poinsettia"
+  },
+  {
+    "name" : "Polyantha Rose",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/polyantha_rose.jpg",
+    "significance" : "Communion with the Divine",
+    "slug" : "polyantha-rose"
+  },
+  {
+    "name" : "Pomegranate",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pomegranate.jpg",
+    "significance" : "",
+    "slug" : "pomegranate"
+  },
+  {
+    "name" : "Porcupine Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/porcupine_flower.jpg",
+    "significance" : "Mental Opening",
+    "slug" : "porcupine-flower"
+  },
+  {
+    "name" : "Portia Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/portia_tree.jpg",
+    "significance" : "Health",
+    "slug" : "portia-tree"
+  },
+  {
+    "name" : "Powderpuff",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/powderpuff.jpg",
+    "significance" : "Striving towards Wisdom",
+    "slug" : "powderpuff"
+  },
+  {
+    "name" : "Primrose",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/primrose.jpg",
+    "significance" : "Growth",
+    "slug" : "primrose"
+  },
+  {
+    "name" : "Princess Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/princess_vine.jpg",
+    "significance" : "Heroic Thought",
+    "slug" : "princess-vine"
+  },
+  {
+    "name" : "Pumpkin",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pumpkin.jpg",
+    "significance" : "Abundance",
+    "slug" : "pumpkin"
+  },
+  {
+    "name" : "Purple Allamanda",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/purple_allamanda.jpg",
+    "significance" : "Victory in the Vital",
+    "slug" : "purple-allamanda"
+  },
+  {
+    "name" : "Purple Cestrum",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/purple_cestrum.jpg",
+    "significance" : "Light in the Vital",
+    "slug" : "purple-cestrum"
+  },
+  {
+    "name" : "Purple Heart",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/purple_heart.jpg",
+    "significance" : "The Vital Governed by the Presence",
+    "slug" : "purple-heart"
+  },
+  {
+    "name" : "Purple Wreath",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/purple_wreath.jpg",
+    "significance" : "Spiritual Power of Healing",
+    "slug" : "purple-wreath"
+  },
+  {
+    "name" : "Pussy Willow",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/pussy_willow.jpg",
+    "significance" : "The Future",
+    "slug" : "pussy-willow"
+  },
+  {
+    "name" : "Queen of the Night",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/queen_of_the_night.jpg",
+    "significance" : "Air",
+    "slug" : "queen-of-the-night"
+  },
+  {
+    "name" : "Queen's Crape Myrtle",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/queens_crape_myrtle.jpg",
+    "significance" : "Intimacy with Universal Nature",
+    "slug" : "queens-crape-myrtle"
+  },
+  {
+    "name" : "Railway Creeper",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/railway_creeper.jpg",
+    "significance" : "Detachment from all that is not the Divine",
+    "slug" : "railway-creeper"
+  },
+  {
+    "name" : "Rain Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rain_flower.jpg",
+    "significance" : "Occultism",
+    "slug" : "rain-flower"
+  },
+  {
+    "name" : "Rain Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rain_tree.jpg",
+    "significance" : "Wisdom",
+    "slug" : "rain-tree"
+  },
+  {
+    "name" : "Rainbow Pink",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rainbow_pink.jpg",
+    "significance" : "",
+    "slug" : "rainbow-pink"
+  },
+  {
+    "name" : "Rangoon Creeper",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rangoon_creeper.jpg",
+    "significance" : "Faithfulness",
+    "slug" : "rangoon-creeper"
+  },
+  {
+    "name" : "Rattlebox",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rattlebox.jpg",
+    "significance" : "Formative Faculty in the Vital",
+    "slug" : "rattlebox"
+  },
+  {
+    "name" : "Red Aphelandra",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/red_aphelandra.jpg",
+    "significance" : "Sharp Tongue",
+    "slug" : "red-aphelandra"
+  },
+  {
+    "name" : "Red Cassia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/red_cassia.jpg",
+    "significance" : "Refinement of Sensations",
+    "slug" : "red-cassia"
+  },
+  {
+    "name" : "Red Powderpuff",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/red_powderpuff.jpg",
+    "significance" : "Wisdom in the Physical Mind",
+    "slug" : "red-powderpuff"
+  },
+  {
+    "name" : "Red Silk Cotton Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/red_silk_cotton_tree.jpg",
+    "significance" : "Solid Steadfastness in the Material Consciousness",
+    "slug" : "red-silk-cotton-tree"
+  },
+  {
+    "name" : "Red Violet",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/red_violet.jpg",
+    "significance" : "Vital Will Manifested in Life",
+    "slug" : "red-violet"
+  },
+  {
+    "name" : "Resurrection Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/resurrection_lily.jpg",
+    "significance" : "Vital Honesty",
+    "slug" : "resurrection-lily"
+  },
+  {
+    "name" : "Rhododendron",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rhododendron.jpg",
+    "significance" : "Abundance of Beauty",
+    "slug" : "rhododendron"
+  },
+  {
+    "name" : "Rock Purslane",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rock_purslane.jpg",
+    "significance" : "Material Power to Heal",
+    "slug" : "rock-purslane"
+  },
+  {
+    "name" : "Rock Rosemary",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rock_rosemary.jpg",
+    "significance" : "Detailed Gratitude",
+    "slug" : "rock-rosemary"
+  },
+  {
+    "name" : "Rondeletia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rondeletia.jpg",
+    "significance" : "Mahasaraswati's Perfection in Work",
+    "slug" : "rondeletia"
+  },
+  {
+    "name" : "Rose",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rose.jpg",
+    "significance" : "",
+    "slug" : "rose"
+  },
+  {
+    "name" : "Rose Apple",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rose_apple.jpg",
+    "significance" : "Mastery",
+    "slug" : "rose-apple"
+  },
+  {
+    "name" : "Rose Moss",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rose_moss.jpg",
+    "significance" : "Sri Aurobindo's Compassion",
+    "slug" : "rose-moss"
+  },
+  {
+    "name" : "Rose of Sharon",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/rose_of_sharon.jpg",
+    "significance" : "",
+    "slug" : "rose-of-sharon"
+  },
+  {
+    "name" : "Running Pop",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/running_pop.jpg",
+    "significance" : "Integral Silence",
+    "slug" : "running-pop"
+  },
+  {
+    "name" : "Sacred Lotus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sacred_lotus.jpg",
+    "significance" : "",
+    "slug" : "sacred-lotus"
+  },
+  {
+    "name" : "Sage",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sage.jpg",
+    "significance" : "Aspiration for Spirituality",
+    "slug" : "sage"
+  },
+  {
+    "name" : "Sanchezia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sanchezia.jpg",
+    "significance" : "Foresight",
+    "slug" : "sanchezia"
+  },
+  {
+    "name" : "Satavar",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/satavar.jpg",
+    "significance" : "Beauty Arising from Consecration",
+    "slug" : "satavar"
+  },
+  {
+    "name" : "Sausage Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sausage_tree.jpg",
+    "significance" : "First Response of the Inconscient to the Divine Force",
+    "slug" : "sausage-tree"
+  },
+  {
+    "name" : "Scarlet Bush",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/scarlet_bush.jpg",
+    "significance" : "Matter under the Supramental Guidance",
+    "slug" : "scarlet-bush"
+  },
+  {
+    "name" : "Scarlet Flame Bean",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/scarlet_flame_bean.jpg",
+    "significance" : "Divine Love Governing the World",
+    "slug" : "scarlet-flame-bean"
+  },
+  {
+    "name" : "Scarlet Morning Glory",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/scarlet_morning_glory.jpg",
+    "significance" : "Opening of the Physical to the Divine Love",
+    "slug" : "scarlet-morning-glory"
+  },
+  {
+    "name" : "Scarlet Orchid",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/scarlet_orchid.jpg",
+    "significance" : "Attachment of the Cells to the Divine",
+    "slug" : "scarlet-orchid"
+  },
+  {
+    "name" : "Scarlet Sage",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/scarlet_sage.jpg",
+    "significance" : "Matter Consenting to be Spiritualised",
+    "slug" : "scarlet-sage"
+  },
+  {
+    "name" : "Scarlet Wistaria Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/scarlet_wistaria_tree.jpg",
+    "significance" : "Beginning of Realisation",
+    "slug" : "scarlet-wistaria-tree"
+  },
+  {
+    "name" : "Sea Holly",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sea_holly.jpg",
+    "significance" : "The Guardian",
+    "slug" : "sea-holly"
+  },
+  {
+    "name" : "Senna",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/senna.jpg",
+    "significance" : "Attentive Mind",
+    "slug" : "senna"
+  },
+  {
+    "name" : "Sesame",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sesame.jpg",
+    "significance" : "Concilliation",
+    "slug" : "sesame"
+  },
+  {
+    "name" : "Shaddock",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/shaddock.jpg",
+    "significance" : "Continence",
+    "slug" : "shaddock"
+  },
+  {
+    "name" : "Shasta Daisy",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/shasta_daisy.jpg",
+    "significance" : "Creative Word",
+    "slug" : "shasta-daisy"
+  },
+  {
+    "name" : "Shell Ginger",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/shell_ginger.jpg",
+    "significance" : "Eloquence",
+    "slug" : "shell-ginger"
+  },
+  {
+    "name" : "Shooting Star",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/shooting_star.jpg",
+    "significance" : "Attachment of the Material Vital to the Divine",
+    "slug" : "shooting-star"
+  },
+  {
+    "name" : "Shrimp Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/shrimp_plant.jpg",
+    "significance" : "Thirst for Perfection",
+    "slug" : "shrimp-plant"
+  },
+  {
+    "name" : "Shrub Verbena",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/shrub_verbena.jpg",
+    "significance" : "",
+    "slug" : "shrub-verbena"
+  },
+  {
+    "name" : "Shrub Vinca",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/shrub_vinca.jpg",
+    "significance" : "Determination",
+    "slug" : "shrub-vinca"
+  },
+  {
+    "name" : "Siamese Ginger",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/siamese_ginger.jpg",
+    "significance" : "To Know how to Say what is Needed",
+    "slug" : "siamese-ginger"
+  },
+  {
+    "name" : "Simpoh Ayer",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/simpoh_ayer.jpg",
+    "significance" : "Effort towards the Truth",
+    "slug" : "simpoh-ayer"
+  },
+  {
+    "name" : "Siris Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/siris_tree.jpg",
+    "significance" : "Integral Wisdom",
+    "slug" : "siris-tree"
+  },
+  {
+    "name" : "Skyblue Clustervine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/skyblue_clustervine.jpg",
+    "significance" : "Hope",
+    "slug" : "skyblue-clustervine"
+  },
+  {
+    "name" : "Slender Dwarf Morning Glory",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/slender_dwarf_morning_glory.jpg",
+    "significance" : "First Sign of Krishna's Light in Matter",
+    "slug" : "slender-dwarf-morning-glory"
+  },
+  {
+    "name" : "Slender Golden Shower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/slender_golden_shower.jpg",
+    "significance" : "Honesty in the Physical Mind",
+    "slug" : "slender-golden-shower"
+  },
+  {
+    "name" : "Snapdragon",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/snapdragon.jpg",
+    "significance" : "",
+    "slug" : "snapdragon"
+  },
+  {
+    "name" : "Snowdrop",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/snowdrop.jpg",
+    "significance" : "Promise of Renewal",
+    "slug" : "snowdrop"
+  },
+  {
+    "name" : "Snuff Box Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/snuff_box_tree.jpg",
+    "significance" : "Mental Chastity",
+    "slug" : "snuff-box-tree"
+  },
+  {
+    "name" : "Soapwort",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/soapwort.jpg",
+    "significance" : "Right Use of the Granted Grace",
+    "slug" : "soapwort"
+  },
+  {
+    "name" : "Sorrel",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sorrel.jpg",
+    "significance" : "Candid Simplicity in the Vital",
+    "slug" : "sorrel"
+  },
+  {
+    "name" : "Spanish Cherry",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/spanish_cherry.jpg",
+    "significance" : "",
+    "slug" : "spanish-cherry"
+  },
+  {
+    "name" : "Spanish Dagger",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/spanish_dagger.jpg",
+    "significance" : "Initiation",
+    "slug" : "spanish-dagger"
+  },
+  {
+    "name" : "Spanish Flag",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/spanish_flag.jpg",
+    "significance" : "Thirst to Learn",
+    "slug" : "spanish-flag"
+  },
+  {
+    "name" : "Spider Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/spider_flower.jpg",
+    "significance" : "Elan of Aspiration",
+    "slug" : "spider-flower"
+  },
+  {
+    "name" : "Spider Ivy",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/spider_ivy.jpg",
+    "significance" : "Care",
+    "slug" : "spider-ivy"
+  },
+  {
+    "name" : "Spider Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/spider_lily.jpg",
+    "significance" : "Alchemy",
+    "slug" : "spider-lily"
+  },
+  {
+    "name" : "Sprenger's Asparagus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sprengers_asparagus.jpg",
+    "significance" : "Spiritual Speech",
+    "slug" : "sprengers-asparagus"
+  },
+  {
+    "name" : "St. Thomas Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/st_thomas_tree.jpg",
+    "significance" : "Gold",
+    "slug" : "st-thomas-tree"
+  },
+  {
+    "name" : "St. Vincent's Lilac",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/st_vincents_lilac.jpg",
+    "significance" : "Seeking for Support only in the Divine",
+    "slug" : "st-vincents-lilac"
+  },
+  {
+    "name" : "Star Cluster",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/star_cluster.jpg",
+    "significance" : "",
+    "slug" : "star-cluster"
+  },
+  {
+    "name" : "Star of Bethlehem",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/star_of_bethlehem.jpg",
+    "significance" : "Beauty in Collective Simplicity",
+    "slug" : "star-of-bethlehem"
+  },
+  {
+    "name" : "Starfish Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/starfish_flower.jpg",
+    "significance" : "Conquest of the Armies",
+    "slug" : "starfish-flower"
+  },
+  {
+    "name" : "Starfruit",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/starfruit.jpg",
+    "significance" : "Organised Team-work",
+    "slug" : "starfruit"
+  },
+  {
+    "name" : "Stemless Carline Thistle",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/stemless_carline_thistle.jpg",
+    "significance" : "Incorruptible Faithfulness",
+    "slug" : "stemless-carline-thistle"
+  },
+  {
+    "name" : "Strawflower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/strawflower.jpg",
+    "significance" : "Supramental Immortality upon Earth",
+    "slug" : "strawflower"
+  },
+  {
+    "name" : "Sulfur Cosmos",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sulfur_cosmos.jpg",
+    "significance" : "Supramental Light in the Sex Centre",
+    "slug" : "sulfur-cosmos"
+  },
+  {
+    "name" : "Summer Lilac",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/summer_lilac.jpg",
+    "significance" : "Refinement",
+    "slug" : "summer-lilac"
+  },
+  {
+    "name" : "Summer Torch",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/summer_torch.jpg",
+    "significance" : "Control",
+    "slug" : "summer-torch"
+  },
+  {
+    "name" : "Sunflower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sunflower.jpg",
+    "significance" : "",
+    "slug" : "sunflower"
+  },
+  {
+    "name" : "Sunn Hemp",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sunn_hemp.jpg",
+    "significance" : "Formative Faculty in the Mind",
+    "slug" : "sunn-hemp"
+  },
+  {
+    "name" : "Sweet Alison",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sweet_alison.jpg",
+    "significance" : "Goodwill",
+    "slug" : "sweet-alison"
+  },
+  {
+    "name" : "Sweet Marjoram",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sweet_marjoram.jpg",
+    "significance" : "The New Birth",
+    "slug" : "sweet-marjoram"
+  },
+  {
+    "name" : "Sweet Pea",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sweet_pea.jpg",
+    "significance" : "",
+    "slug" : "sweet-pea"
+  },
+  {
+    "name" : "Sweet Violet",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sweet_violet.jpg",
+    "significance" : "Modesty",
+    "slug" : "sweet-violet"
+  },
+  {
+    "name" : "Sweet William",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/sweet_william.jpg",
+    "significance" : "Detailed Obedience",
+    "slug" : "sweet-william"
+  },
+  {
+    "name" : "Tall Cigar Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/tall_cigar_plant.jpg",
+    "significance" : "Vegetal Goodwill towards the Supramental Forces",
+    "slug" : "tall-cigar-plant"
+  },
+  {
+    "name" : "Tampala",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/tampala.jpg",
+    "significance" : "Bravery",
+    "slug" : "tampala"
+  },
+  {
+    "name" : "Teak",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/teak.jpg",
+    "significance" : "Renunciation of Desires",
+    "slug" : "teak"
+  },
+  {
+    "name" : "Terrestrial Orchid",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/terrestrial_orchid.jpg",
+    "significance" : "",
+    "slug" : "terrestrial-orchid"
+  },
+  {
+    "name" : "Tex-Mex Tobacco",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/tex_mex_tobacco.jpg",
+    "significance" : "Certitude",
+    "slug" : "tex-mex-tobacco"
+  },
+  {
+    "name" : "Thorn Apple",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/thorn_apple.jpg",
+    "significance" : "",
+    "slug" : "thorn-apple"
+  },
+  {
+    "name" : "Thorn Straggler",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/thorn_straggler.jpg",
+    "significance" : "Triple Aspiration",
+    "slug" : "thorn-straggler"
+  },
+  {
+    "name" : "Thumbai",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/thumbai.jpg",
+    "significance" : "True Worship",
+    "slug" : "thumbai"
+  },
+  {
+    "name" : "Ti",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/ti.jpg",
+    "significance" : "Return",
+    "slug" : "ti"
+  },
+  {
+    "name" : "Tickweed",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/tickweed.jpg",
+    "significance" : "Cheerfulness in Work for the Divine",
+    "slug" : "tickweed"
+  },
+  {
+    "name" : "Tiny Flower Hibiscus",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/tiny_flower_hibiscus.jpg",
+    "significance" : "Eternal Smile",
+    "slug" : "tiny-flower-hibiscus"
+  },
+  {
+    "name" : "Toadflax",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/toadflax.jpg",
+    "significance" : "Expressive Silence",
+    "slug" : "toadflax"
+  },
+  {
+    "name" : "Torch Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/torch_tree.jpg",
+    "significance" : "Straightforwardness",
+    "slug" : "torch-tree"
+  },
+  {
+    "name" : "Touch-me-not",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/touch_me_not.jpg",
+    "significance" : "Vital Sensitivity",
+    "slug" : "touch-me-not"
+  },
+  {
+    "name" : "Treasure Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/treasure_flower.jpg",
+    "significance" : "Seeking for Clarity",
+    "slug" : "treasure-flower"
+  },
+  {
+    "name" : "Tree Cotton",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/tree_cotton.jpg",
+    "significance" : "Success in the Most Material Vital",
+    "slug" : "tree-cotton"
+  },
+  {
+    "name" : "Tree Marigold",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/tree_marigold.jpg",
+    "significance" : "First Movement of Riches towards the Divine",
+    "slug" : "tree-marigold"
+  },
+  {
+    "name" : "Tree of Sadness",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/tree_of_sadness.jpg",
+    "significance" : "Aspiration",
+    "slug" : "tree-of-sadness"
+  },
+  {
+    "name" : "Tropical Almond",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/tropical_almond.jpg",
+    "significance" : "Spiritual Aspiration",
+    "slug" : "tropical-almond"
+  },
+  {
+    "name" : "Trumpet Bush",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/trumpet_bush.jpg",
+    "significance" : "Physical Mind",
+    "slug" : "trumpet-bush"
+  },
+  {
+    "name" : "Tubeflower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/tubeflower.jpg",
+    "significance" : "Prevision",
+    "slug" : "tubeflower"
+  },
+  {
+    "name" : "Tuberose",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/tuberose.jpg",
+    "significance" : "",
+    "slug" : "tuberose"
+  },
+  {
+    "name" : "Tulip",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/tulip.jpg",
+    "significance" : "Blossoming",
+    "slug" : "tulip"
+  },
+  {
+    "name" : "Turk's Cap",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/turks_cap.jpg",
+    "significance" : "",
+    "slug" : "turks-cap"
+  },
+  {
+    "name" : "Turk's Turban",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/turks_turban.jpg",
+    "significance" : "Divine Will Acting in the Subconscient",
+    "slug" : "turks-turban"
+  },
+  {
+    "name" : "Turkey Berry",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/turkey_berry.jpg",
+    "significance" : "Fearlessness",
+    "slug" : "turkey-berry"
+  },
+  {
+    "name" : "Twisted Cord Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/twisted_cord_flower.jpg",
+    "significance" : "Radiation of the Manifestation",
+    "slug" : "twisted-cord-flower"
+  },
+  {
+    "name" : "Unicorn Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/unicorn_plant.jpg",
+    "significance" : "Regularity",
+    "slug" : "unicorn-plant"
+  },
+  {
+    "name" : "Velvet Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/velvet_flower.jpg",
+    "significance" : "",
+    "slug" : "velvet-flower"
+  },
+  {
+    "name" : "Violet Asystasia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/violet_asystasia.jpg",
+    "significance" : "Aspiration for Trust in the Divine",
+    "slug" : "violet-asystasia"
+  },
+  {
+    "name" : "Violet Churur",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/violet_churur.jpg",
+    "significance" : "Seeking the Light in the Lower Vital",
+    "slug" : "violet-churur"
+  },
+  {
+    "name" : "Wallflower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/wallflower.jpg",
+    "significance" : "Optimism",
+    "slug" : "wallflower"
+  },
+  {
+    "name" : "Wandering Jew",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/wandering_jew.jpg",
+    "significance" : "Quiet Strength in the Vital",
+    "slug" : "wandering-jew"
+  },
+  {
+    "name" : "Water Hyacinth",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/water_hyacinth.jpg",
+    "significance" : "Krishna's Play in the Vital",
+    "slug" : "water-hyacinth"
+  },
+  {
+    "name" : "Water Lily",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/water_lily.jpg",
+    "significance" : "",
+    "slug" : "water-lily"
+  },
+  {
+    "name" : "Wax Plant",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/wax_plant.jpg",
+    "significance" : "Power of Collective Aspiration",
+    "slug" : "wax-plant"
+  },
+  {
+    "name" : "West Indian Creeper",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/west_indian_creeper.jpg",
+    "significance" : "Detailed Perseverance",
+    "slug" : "west-indian-creeper"
+  },
+  {
+    "name" : "White Alder",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/white_alder.jpg",
+    "significance" : "Awakening of the Physical Mind",
+    "slug" : "white-alder"
+  },
+  {
+    "name" : "White Bark Acacia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/white_bark_acacia.jpg",
+    "significance" : "Knowledge of Details",
+    "slug" : "white-bark-acacia"
+  },
+  {
+    "name" : "White Champaca",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/white_champaca.jpg",
+    "significance" : "Divine Smile",
+    "slug" : "white-champaca"
+  },
+  {
+    "name" : "White Gulmohar",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/white_gulmohar.jpg",
+    "significance" : "Mental Fantasy",
+    "slug" : "white-gulmohar"
+  },
+  {
+    "name" : "White Ixora",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/white_ixora.jpg",
+    "significance" : "Peace in the Cells",
+    "slug" : "white-ixora"
+  },
+  {
+    "name" : "White Powderpuff",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/white_powderpuff.jpg",
+    "significance" : "Striving towards Integral Wisdom",
+    "slug" : "white-powderpuff"
+  },
+  {
+    "name" : "White Silk Cotton Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/white_silk_cotton_tree.jpg",
+    "significance" : "Material Enterprises",
+    "slug" : "white-silk-cotton-tree"
+  },
+  {
+    "name" : "Wild Ginger",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/wild_ginger.jpg",
+    "significance" : "",
+    "slug" : "wild-ginger"
+  },
+  {
+    "name" : "Wild Guava",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/wild_guava.jpg",
+    "significance" : "Liberation",
+    "slug" : "wild-guava"
+  },
+  {
+    "name" : "Wild Sage",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/wild_sage.jpg",
+    "significance" : "Mental Voice",
+    "slug" : "wild-sage"
+  },
+  {
+    "name" : "Willowleaf Angelon",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/willowleaf_angelon.jpg",
+    "significance" : "",
+    "slug" : "willowleaf-angelon"
+  },
+  {
+    "name" : "Windflower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/windflower.jpg",
+    "significance" : "Fragile Elegance",
+    "slug" : "windflower"
+  },
+  {
+    "name" : "Winter Daffodil",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/winter_daffodil.jpg",
+    "significance" : "Supramental Invocation",
+    "slug" : "winter-daffodil"
+  },
+  {
+    "name" : "Wishbone Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/wishbone_flower.jpg",
+    "significance" : "",
+    "slug" : "wishbone-flower"
+  },
+  {
+    "name" : "Wood Halmilla",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/wood_halmilla.jpg",
+    "significance" : "Liberation in the Vital",
+    "slug" : "wood-halmilla"
+  },
+  {
+    "name" : "Wooden Rose",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/wooden_rose.jpg",
+    "significance" : "",
+    "slug" : "wooden-rose"
+  },
+  {
+    "name" : "Yellow Alder",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/yellow_alder.jpg",
+    "significance" : "Awakening in the Mind",
+    "slug" : "yellow-alder"
+  },
+  {
+    "name" : "Yellow Bells",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/yellow_bells.jpg",
+    "significance" : "Higher Mind",
+    "slug" : "yellow-bells"
+  },
+  {
+    "name" : "Yellow Jacobinia",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/yellow_jacobinia.jpg",
+    "significance" : "Aspiration of the Mind for the Supramental Guidance",
+    "slug" : "yellow-jacobinia"
+  },
+  {
+    "name" : "Yellow Morning Glory",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/yellow_morning_glory.jpg",
+    "significance" : "Mental Gratitude",
+    "slug" : "yellow-morning-glory"
+  },
+  {
+    "name" : "Yellow Oleander",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/yellow_oleander.jpg",
+    "significance" : "",
+    "slug" : "yellow-oleander"
+  },
+  {
+    "name" : "Yellow Silk Cotton Tree",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/yellow_silk_cotton_tree.jpg",
+    "significance" : "Success in Supramental Work",
+    "slug" : "yellow-silk-cotton-tree"
+  },
+  {
+    "name" : "Yellow Trumpet Vine",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/yellow_trumpet_vine.jpg",
+    "significance" : "Joy of Victory",
+    "slug" : "yellow-trumpet-vine"
+  },
+  {
+    "name" : "Yesterday-today-and-tomorrow",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/yesterday_today_and_tomorrow.jpg",
+    "significance" : "Refinement of Emotions",
+    "slug" : "yesterday-today-and-tomorrow"
+  },
+  {
+    "name" : "Ylang Ylang",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/ylang_ylang.jpg",
+    "significance" : "Correct Perception",
+    "slug" : "ylang-ylang"
+  },
+  {
+    "name" : "Zeodary",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/zeodary.jpg",
+    "significance" : "Peace",
+    "slug" : "zeodary"
+  },
+  {
+    "name" : "Zephyr Flower",
+    "thumbnail_url" : "https:\/\/flowers-assets.s3-ap-southeast-1.amazonaws.com\/img\/zephyr_flower.jpg",
+    "significance" : "",
+    "slug" : "zephyr-flower"
+  }
+]
