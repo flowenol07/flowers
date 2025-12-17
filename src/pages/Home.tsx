@@ -50,7 +50,7 @@ export default function Home() {
   useEffect(() => {
     const selectedIndices = [12, 45, 28, 67, 8];
     const selectedFlowers = selectedIndices.map(i => flowers[i]).filter(Boolean);
-    
+
     if (selectedFlowers.length < 5) {
       const additional = [...flowers]
         .filter(f => !selectedFlowers.includes(f))
@@ -58,13 +58,13 @@ export default function Home() {
         .slice(0, 5 - selectedFlowers.length);
       selectedFlowers.push(...additional);
     }
-    
+
     setHeroFlowers(selectedFlowers.slice(0, 5));
-    
+
     // Initialize different images for bottom boxes (indices 15, 22)
     const bottomIndices = [15, 22];
     const bottomFlowers = bottomIndices.map(i => flowers[i]).filter(Boolean);
-    
+
     if (bottomFlowers.length < 2) {
       const additional = [...flowers]
         .filter(f => !selectedFlowers.includes(f) && !bottomFlowers.includes(f))
@@ -72,7 +72,7 @@ export default function Home() {
         .slice(0, 2 - bottomFlowers.length);
       bottomFlowers.push(...additional);
     }
-    
+
     setBottomImages(bottomFlowers.slice(0, 2));
   }, []);
 
@@ -115,8 +115,8 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section with Larger Asymmetric CSS Grid */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-rose-50 via-white to-pink-50 py-12 md:py-16 min-h-[90vh]">
+      {/* Hero Section with Responsive Layout */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-rose-50 via-white to-pink-50 py-12 md:py-16 min-h-[75vh]">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0" style={{
@@ -125,268 +125,202 @@ export default function Home() {
           }} />
         </div>
 
-        {/* Larger Asymmetric CSS Grid - Bigger size - HIDDEN ON MOBILE */}
-        <div className="hidden lg:block absolute top-1/2 right-8 md:right-16 lg:right-32 transform -translate-y-1/2">
-          <div className="grid grid-cols-3 grid-rows-3 gap-5 w-[600px] h-[600px]">
-            {/* Primary Grid Cell - Featured image (spans 2x2) - Larger */}
-            <div className="relative col-span-2 row-span-2 overflow-hidden rounded-2xl group">
-              {heroFlowers[0] && (
-                <>
-                  <img
-                    src={getImageUrl(heroFlowers[0])}
-                    alt={heroFlowers[0].name}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    onError={(e) => {
-                      const target = e.currentTarget;
-                      target.src = getPlaceholderImage(heroFlowers[0].name);
-                      target.onerror = null;
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-tr from-black/20 via-black/10 to-transparent"></div>
-                  <div className="absolute top-5 left-5">
-                    <span className="bg-gradient-to-r from-rose-500 to-pink-500 text-white text-sm font-semibold px-4 py-2 rounded-full shadow-lg">
-                      Featured
-                    </span>
-                  </div>
-                </>
-              )}
-              <div className="absolute inset-0 border-3 border-white/40 rounded-2xl"></div>
-            </div>
-
-            {/* Secondary Grid Cell 1 - Top right */}
-            <div className="relative overflow-hidden rounded-xl group">
-              {heroFlowers[1] && (
-                <>
-                  <img
-                    src={getImageUrl(heroFlowers[1])}
-                    alt={heroFlowers[1].name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    onError={(e) => {
-                      const target = e.currentTarget;
-                      target.src = getPlaceholderImage(heroFlowers[1].name);
-                      target.onerror = null;
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
-                </>
-              )}
-              <div className="absolute inset-0 border-2 border-white/30 rounded-xl"></div>
-            </div>
-
-            {/* Secondary Grid Cell 2 - Middle right */}
-            <div className="relative overflow-hidden rounded-xl group">
-              {heroFlowers[2] && (
-                <>
-                  <img
-                    src={getImageUrl(heroFlowers[2])}
-                    alt={heroFlowers[2].name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    onError={(e) => {
-                      const target = e.currentTarget;
-                      target.src = getPlaceholderImage(heroFlowers[2].name);
-                      target.onerror = null;
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
-                </>
-              )}
-              <div className="absolute inset-0 border-2 border-white/30 rounded-xl"></div>
-            </div>
-
-            {/* Tertiary Grid Cell 1 - Bottom left (spans 2 columns) */}
-            <div className="relative col-span-2 overflow-hidden rounded-xl group">
-              {heroFlowers[3] && (
-                <>
-                  <img
-                    src={getImageUrl(heroFlowers[3])}
-                    alt={heroFlowers[3].name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    onError={(e) => {
-                      const target = e.currentTarget;
-                      target.src = getPlaceholderImage(heroFlowers[3].name);
-                      target.onerror = null;
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
-                </>
-              )}
-              <div className="absolute inset-0 border-2 border-white/30 rounded-xl"></div>
-            </div>
-
-            {/* Tertiary Grid Cell 2 - Bottom right */}
-            <div className="relative overflow-hidden rounded-xl group">
-              {heroFlowers[4] && (
-                <>
-                  <img
-                    src={getImageUrl(heroFlowers[4])}
-                    alt={heroFlowers[4].name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    onError={(e) => {
-                      const target = e.currentTarget;
-                      target.src = getPlaceholderImage(heroFlowers[4].name);
-                      target.onerror = null;
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
-                </>
-              )}
-              <div className="absolute inset-0 border-2 border-white/30 rounded-xl"></div>
-            </div>
-          </div>
-        </div>
-
         {/* Decorative elements */}
         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-pink-200 rounded-full opacity-5 blur-3xl"></div>
         <div className="absolute bottom-1/4 left-1/4 w-80 h-80 bg-rose-200 rounded-full opacity-5 blur-3xl"></div>
 
-        {/* Mobile: Simple featured image */}
-        <div className="lg:hidden px-4 pt-8 pb-12">
-          <div className="max-w-md mx-auto mb-8">
-            <div className="relative overflow-hidden rounded-2xl aspect-square">
-              {heroFlowers[0] && (
-                <>
-                  <img
-                    src={getImageUrl(heroFlowers[0])}
-                    alt={heroFlowers[0].name}
-                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
-                    onError={(e) => {
-                      const target = e.currentTarget;
-                      target.src = getPlaceholderImage(heroFlowers[0].name);
-                      target.onerror = null;
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-tr from-black/20 via-black/10 to-transparent"></div>
-                  <div className="absolute top-4 left-4">
-                    <span className="bg-gradient-to-r from-rose-500 to-pink-500 text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-lg">
-                      Featured
-                    </span>
-                  </div>
-                </>
-              )}
-              <div className="absolute inset-0 border-2 border-white/40 rounded-2xl"></div>
-            </div>
-          </div>
-        </div>
+        {/* Main Content Container - Responsive Grid/Flex */}
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-full">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-12 h-full">
 
-        {/* Text content with two small image boxes below */}
-        <div className="relative h-full">
-          {/* MOBILE: Different positioning for mobile */}
-          <div className="lg:hidden px-4 max-w-xl mx-auto">
-            <span className="inline-block rounded-full bg-gradient-to-r from-pink-500 to-rose-500 px-3 py-1 text-xs font-semibold text-white mb-3">
-              Divine Floral Wisdom
-            </span>
+            {/* Text Content (Left Side on Desktop) */}
+            <div className="relative max-w-xl lg:w-1/2 pt-10 lg:pt-0">
+              <span className="inline-block rounded-full bg-gradient-to-r from-pink-500 to-rose-500 px-3 py-1 text-xs font-semibold text-white mb-3">
+                Divine Floral Wisdom
+              </span>
 
-            <h1 className="mb-4 text-2xl md:text-3xl font-bold tracking-tight text-gray-900">
-              The Significance of Flowers
-            </h1>
+              <h1 className="mb-4 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">
+                The Significance of Flowers
+              </h1>
 
-            <div className="mb-4 text-sm md:text-base text-gray-800 leading-relaxed space-y-3 italic">
-              <p className="border-l-4 border-pink-300 pl-4 py-1">
-                "When I give flowers, it is an answer to the aspiration coming from the very depths of your being.
-              </p>
-              <p className="border-l-4 border-rose-300 pl-4 py-1">
-                It is an aspiration or a need - it depends on the person. It may fill a void, or else give you the impetus to progress, or it may help you to find the inner harmony to establish peace.
-              </p>
-              <p className="border-l-4 border-pink-300 pl-4 py-1">
-                I give you flowers so that you may develop the Divine qualities they symbolize. And they can directly transmit into your soul all that they contain, pure, unalloyed. They possess a very subtle and very deep power and influence."
-              </p>
-            </div>
-
-            <div className="mt-5 flex flex-col sm:flex-row gap-2">
-              <Link
-                to="/flowers"
-                className="inline-flex items-center justify-center gap-1 rounded-full bg-gradient-to-r from-rose-500 to-pink-500 px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl hover:from-rose-600 hover:to-pink-600"
-              >
-                Explore Flower Meanings
-                <FiArrowRight className="text-sm" />
-              </Link>
-              <Link
-                to="/message-of-flowers"
-                className="inline-flex items-center justify-center gap-1 rounded-full border-2 border-rose-200 bg-white/80 backdrop-blur-sm px-5 py-2.5 text-sm font-semibold text-rose-600 transition-all hover:bg-rose-50 hover:border-rose-300"
-              >
-                Discover Symbolism
-              </Link>
-            </div>
-          </div>
-
-          {/* DESKTOP: Original positioning */}
-          <div className="hidden lg:block absolute -top-4 left-[5rem] md:left-[7rem] lg:left-[9rem] max-w-xl z-10">
-            <span className="inline-block rounded-full bg-gradient-to-r from-pink-500 to-rose-500 px-3 py-1 text-xs font-semibold text-white mb-3">
-              Divine Floral Wisdom
-            </span>
-
-            <h1 className="mb-4 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">
-              The Significance of Flowers
-            </h1>
-
-            <div className="mb-4 text-sm md:text-base text-gray-800 leading-relaxed space-y-3 italic">
-              <p className="border-l-4 border-pink-300 pl-4 py-1">
-                "When I give flowers, it is an answer to the aspiration coming from the very depths of your being.
-              </p>
-              <p className="border-l-4 border-rose-300 pl-4 py-1">
-                It is an aspiration or a need - it depends on the person. It may fill a void, or else give you the impetus to progress, or it may help you to find the inner harmony to establish peace.
-              </p>
-              <p className="border-l-4 border-pink-300 pl-4 py-1">
-                I give you flowers so that you may develop the Divine qualities they symbolize. And they can directly transmit into your soul all that they contain, pure, unalloyed. They possess a very subtle and very deep power and influence."
-              </p>
-            </div>
-
-            <div className="mt-5 flex flex-col sm:flex-row gap-2">
-              <Link
-                to="/flowers"
-                className="inline-flex items-center justify-center gap-1 rounded-full bg-gradient-to-r from-rose-500 to-pink-500 px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl hover:from-rose-600 hover:to-pink-600"
-              >
-                Explore Flower Meanings
-                <FiArrowRight className="text-sm" />
-              </Link>
-              <Link
-                to="/message-of-flowers"
-                className="inline-flex items-center justify-center gap-1 rounded-full border-2 border-rose-200 bg-white/80 backdrop-blur-sm px-5 py-2.5 text-sm font-semibold text-rose-600 transition-all hover:bg-rose-50 hover:border-rose-300"
-              >
-                Discover Symbolism
-              </Link>
-            </div>
-
-            {/* Two small image boxes below the text - FIXED to match hero grid size */}
-            <div className="mt-5 flex gap-3 h-[183px]"> {/* Fixed height to match grid cell size */}
-              {/* Wider image box - matches hero grid bottom-left cell (2 columns) */}
-              <div className="relative overflow-hidden rounded-xl group flex-[2] h-full">
-                {bottomImages[0] && (
-                  <>
-                    <img
-                      src={getImageUrl(bottomImages[0])}
-                      alt={bottomImages[0].name}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                      onError={(e) => {
-                        const target = e.currentTarget;
-                        target.src = getPlaceholderImage(bottomImages[0].name);
-                        target.onerror = null;
-                      }}
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/10 to-transparent"></div>
-                  </>
-                )}
-                <div className="absolute inset-0 border-2 border-white/50 rounded-xl"></div>
+              <div className="mb-6 text-sm md:text-base text-gray-800 leading-relaxed space-y-3 italic">
+                <p className="border-l-4 border-pink-300 pl-4 py-1">
+                  "When I give flowers, it is an answer to the aspiration coming from the very depths of your being.
+                </p>
+                <p className="border-l-4 border-rose-300 pl-4 py-1">
+                  It is an aspiration or a need - it depends on the person. It may fill a void, or else give you the impetus to progress, or it may help you to find the inner harmony to establish peace.
+                </p>
+                <p className="border-l-4 border-pink-300 pl-4 py-1">
+                  I give you flowers so that you may develop the Divine qualities they symbolize. And they can directly transmit into your soul all that they contain, pure, unalloyed. They possess a very subtle and very deep power and influence."
+                </p>
               </div>
 
-              {/* Smaller image box - matches hero grid bottom-right cell size */}
-              <div className="relative overflow-hidden rounded-xl group flex-1 h-full">
-                {bottomImages[1] && (
-                  <>
-                    <img
-                      src={getImageUrl(bottomImages[1])}
-                      alt={bottomImages[1].name}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                      onError={(e) => {
-                        const target = e.currentTarget;
-                        target.src = getPlaceholderImage(bottomImages[1].name);
-                        target.onerror = null;
-                      }}
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/10 to-transparent"></div>
-                  </>
-                )}
-                <div className="absolute inset-0 border-2 border-white/50 rounded-xl"></div>
+              <div className="mt-8 flex flex-col sm:flex-row gap-3">
+                <Link
+                  to="/flowers"
+                  className="inline-flex items-center justify-center gap-1 rounded-full bg-gradient-to-r from-rose-500 to-pink-500 px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl hover:from-rose-600 hover:to-pink-600"
+                >
+                  Explore Flower Meanings
+                  <FiArrowRight className="text-base" />
+                </Link>
+                <Link
+                  to="/message-of-flowers"
+                  className="inline-flex items-center justify-center gap-1 rounded-full border-2 border-rose-200 bg-white/80 backdrop-blur-sm px-5 py-2.5 text-sm font-semibold text-rose-600 transition-all hover:bg-rose-50 hover:border-rose-300"
+                >
+                  Discover Symbolism
+                </Link>
+              </div>
+
+              {/* Two small image boxes below the text - Responsive */}
+              <div className="mt-6 hidden lg:flex gap-2 max-w-md">
+                {/* First image box - wider, height fixed */}
+                <div className="relative overflow-hidden rounded-lg group flex-[2] h-32">
+                  {bottomImages[0] && (
+                    <>
+                      <img
+                        src={getImageUrl(bottomImages[0])}
+                        alt={bottomImages[0].name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        onError={(e) => {
+                          const target = e.currentTarget;
+                          target.src = getPlaceholderImage(bottomImages[0].name);
+                          target.onerror = null;
+                        }}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-black/5 to-transparent"></div>
+                    </>
+                  )}
+                  <div className="absolute inset-0 border border-white/40 rounded-lg"></div>
+                </div>
+                {/* Second image box - smaller */}
+                <div className="relative overflow-hidden rounded-lg group flex-1 aspect-[4/3]">
+                  {bottomImages[1] && (
+                    <>
+                      <img
+                        src={getImageUrl(bottomImages[1])}
+                        alt={bottomImages[1].name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        onError={(e) => {
+                          const target = e.currentTarget;
+                          target.src = getPlaceholderImage(bottomImages[1].name);
+                          target.onerror = null;
+                        }}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-black/5 to-transparent"></div>
+                    </>
+                  )}
+                  <div className="absolute inset-0 border border-white/40 rounded-lg"></div>
+                </div>
+              </div>
+            </div>
+
+            {/* Asymmetric CSS Grid (Right Side on Desktop) - Responsive */}
+            <div className="w-full lg:w-1/2 max-w-lg mx-auto lg:max-w-none lg:mx-0 aspect-square">
+              <div className="grid grid-cols-3 grid-rows-3 gap-3 h-full">
+                {/* Primary Grid Cell - Featured image (spans 2x2) - Larger */}
+                <div className="relative col-span-2 row-span-2 overflow-hidden rounded-2xl group">
+                  {heroFlowers[0] && (
+                    <>
+                      <img
+                        src={getImageUrl(heroFlowers[0])}
+                        alt={heroFlowers[0].name}
+                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        onError={(e) => {
+                          const target = e.currentTarget;
+                          target.src = getPlaceholderImage(heroFlowers[0].name);
+                          target.onerror = null;
+                        }}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-tr from-black/20 via-black/10 to-transparent"></div>
+                      <div className="absolute top-5 left-5">
+                        <span className="bg-gradient-to-r from-rose-500 to-pink-500 text-white text-sm font-semibold px-4 py-2 rounded-full shadow-lg">
+                          Featured
+                        </span>
+                      </div>
+                    </>
+                  )}
+                  <div className="absolute inset-0 border-3 border-white/40 rounded-2xl"></div>
+                </div>
+
+                {/* Secondary Grid Cell 1 - Top right */}
+                <div className="relative overflow-hidden rounded-xl group">
+                  {heroFlowers[1] && (
+                    <>
+                      <img
+                        src={getImageUrl(heroFlowers[1])}
+                        alt={heroFlowers[1].name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        onError={(e) => {
+                          const target = e.currentTarget;
+                          target.src = getPlaceholderImage(heroFlowers[1].name);
+                          target.onerror = null;
+                        }}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
+                    </>
+                  )}
+                  <div className="absolute inset-0 border-2 border-white/30 rounded-xl"></div>
+                </div>
+
+                {/* Secondary Grid Cell 2 - Middle right */}
+                <div className="relative overflow-hidden rounded-xl group">
+                  {heroFlowers[2] && (
+                    <>
+                      <img
+                        src={getImageUrl(heroFlowers[2])}
+                        alt={heroFlowers[2].name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        onError={(e) => {
+                          const target = e.currentTarget;
+                          target.src = getPlaceholderImage(heroFlowers[2].name);
+                          target.onerror = null;
+                        }}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
+                    </>
+                  )}
+                  <div className="absolute inset-0 border-2 border-white/30 rounded-xl"></div>
+                </div>
+
+                {/* Tertiary Grid Cell 1 - Bottom left (spans 2 columns) */}
+                <div className="relative col-span-2 overflow-hidden rounded-xl group">
+                  {heroFlowers[3] && (
+                    <>
+                      <img
+                        src={getImageUrl(heroFlowers[3])}
+                        alt={heroFlowers[3].name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        onError={(e) => {
+                          const target = e.currentTarget;
+                          target.src = getPlaceholderImage(heroFlowers[3].name);
+                          target.onerror = null;
+                        }}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
+                    </>
+                  )}
+                  <div className="absolute inset-0 border-2 border-white/30 rounded-xl"></div>
+                </div>
+
+                {/* Tertiary Grid Cell 2 - Bottom right */}
+                <div className="relative overflow-hidden rounded-xl group">
+                  {heroFlowers[4] && (
+                    <>
+                      <img
+                        src={getImageUrl(heroFlowers[4])}
+                        alt={heroFlowers[4].name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        onError={(e) => {
+                          const target = e.currentTarget;
+                          target.src = getPlaceholderImage(heroFlowers[4].name);
+                          target.onerror = null;
+                        }}
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
+                    </>
+                  )}
+                  <div className="absolute inset-0 border-2 border-white/30 rounded-xl"></div>
+                </div>
               </div>
             </div>
           </div>
@@ -473,63 +407,82 @@ export default function Home() {
                     <p className="text-sm text-gray-500 mb-3">
                       <span className="font-medium">Written by:</span> {blog.author}
                     </p>
-                    <span className="inline-flex items-center gap-1 text-sm font-semibold text-rose-600">
+                    <Link
+                      to={`/blog/${blog.slug}`}
+                      className="inline-flex items-center gap-1 text-sm font-semibold text-rose-600 hover:text-rose-800 transition-colors"
+                    >
                       Read More
                       <FiArrowRight className="text-xs" />
-                    </span>
+                    </Link>
                   </div>
                 </div>
               </div>
             ))}
           </div>
-
-          <div className="mt-12 text-center">
-            <Link
-              to="/blogs"
-              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-rose-500 to-pink-500 px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl"
-            >
-              View All Blog Posts
-              <FiArrowRight className="text-sm" />
-            </Link>
-          </div>
         </div>
       </section>
 
-      {/* Why Explore With Us? Section */}
-      <section className="py-16 bg-gradient-to-b from-white to-rose-50/30">
+      {/* Footer Section */}
+      <footer className="bg-gray-800 text-white py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Explore With Us?</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Experience floral symbolism like never before</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {/* Column 1: Logo and Description */}
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-rose-400">Floral Wisdom</h3>
+              <p className="text-sm text-gray-400">
+                Exploring the spiritual and symbolic significance of flowers in life and consciousness.
+              </p>
+            </div>
+
+            {/* Column 2: Quick Links */}
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li><Link to="/" className="hover:text-rose-400 transition-colors">Home</Link></li>
+                <li><Link to="/flowers" className="hover:text-rose-400 transition-colors">Flowers</Link></li>
+                <li><Link to="/message-of-flowers" className="hover:text-rose-400 transition-colors">Symbolism</Link></li>
+                <li><Link to="/blog" className="hover:text-rose-400 transition-colors">Blog</Link></li>
+              </ul>
+            </div>
+
+            {/* Column 3: Resources */}
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Resources</h4>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li><a href="#" className="hover:text-rose-400 transition-colors">About Us</a></li>
+                <li><a href="#" className="hover:text-rose-400 transition-colors">Contact</a></li>
+                <li><a href="#" className="hover:text-rose-400 transition-colors">Privacy Policy</a></li>
+                <li><a href="#" className="hover:text-rose-400 transition-colors">Terms of Service</a></li>
+              </ul>
+            </div>
+
+            {/* Column 4: Newsletter */}
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Stay Updated</h4>
+              <p className="text-sm text-gray-400 mb-4">
+                Subscribe to our newsletter for the latest insights.
+              </p>
+              <form className="flex">
+                <input
+                  type="email"
+                  placeholder="Your email"
+                  className="p-2 rounded-l-lg text-gray-900 text-sm w-full focus:outline-none"
+                />
+                <button
+                  type="submit"
+                  className="bg-rose-500 hover:bg-rose-600 text-white p-2 rounded-r-lg text-sm font-semibold transition-colors"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-rose-100 to-pink-100 mb-4">
-                <FiHeart className="text-2xl text-rose-600" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Rich History</h3>
-              <p className="text-gray-600">Explore floral symbolism from Victorian era to modern times with detailed historical context.</p>
-            </div>
-
-            <div className="text-center p-6">
-              <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-pink-100 to-rose-100 mb-4">
-                <FiStar className="text-2xl text-pink-600" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Cultural Insights</h3>
-              <p className="text-gray-600">Discover how different cultures interpret the same flower across the globe.</p>
-            </div>
-
-            <div className="text-center p-6">
-              <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-rose-100 to-pink-100 mb-4">
-                <FiAward className="text-2xl text-rose-600" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Practical Guide</h3>
-              <p className="text-gray-600">Learn to use floral symbolism in weddings, gifts, and daily life with practical tips.</p>
-            </div>
+          <div className="mt-12 border-t border-gray-700 pt-8 text-center text-sm text-gray-500">
+            &copy; {new Date().getFullYear()} Floral Wisdom. All rights reserved.
           </div>
         </div>
-      </section>
+      </footer>
     </div>
   );
 }
