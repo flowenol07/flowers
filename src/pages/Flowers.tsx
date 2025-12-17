@@ -77,9 +77,10 @@ export default function Flowers() {
 
         {/* Results Message */}
         {search && (
-          <div className="mb-6 p-4 bg-blue-50 rounded-xl border border-blue-100">
-            <p className="text-blue-700">
-              Found <span className="font-semibold">{filteredFlowers.length}</span> flowers matching "<span className="font-semibold">{search}</span>"
+          <div className="mb-6 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border border-blue-200 shadow-sm">
+            <p className="text-blue-800 flex items-center gap-2">
+              <span className="text-lg">🌼</span>
+              Found <span className="font-bold text-blue-900">{filteredFlowers.length}</span> flowers matching "<span className="font-bold text-blue-900">{search}</span>"
             </p>
           </div>
         )}
@@ -88,28 +89,116 @@ export default function Flowers() {
         {filteredFlowers.length > 0 ? (
           <div className={`gap-6 ${viewMode === "grid" ? "grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" : "space-y-4"}`}>
             {filteredFlowers.map((flower) => (
-              <div key={flower.slug} className={viewMode === "list" ? "bg-white rounded-xl shadow-sm border border-gray-100 p-4" : ""}>
-                <FlowerCard flower={flower} />
-                {viewMode === "list" && (
-                  <div className="mt-4">
-                    <p className="text-gray-600 text-sm">{flower.significance}</p>
+              <div 
+                key={flower.slug} 
+                className={`
+                  ${viewMode === "list" 
+                    ? "bg-gradient-to-r from-white to-rose-50 rounded-2xl shadow-lg border border-rose-100 p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1" 
+                    : "relative group"
+                  }
+                `}
+              >
+                {/* Grid View Container */}
+                {viewMode === "grid" && (
+                  <div className="relative">
+                    {/* Decorative corner elements */}
+                    <div className="absolute -top-2 -left-2 w-8 h-8 border-t-2 border-l-2 border-rose-300 rounded-tl-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute -top-2 -right-2 w-8 h-8 border-t-2 border-r-2 border-rose-300 rounded-tr-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute -bottom-2 -left-2 w-8 h-8 border-b-2 border-l-2 border-rose-300 rounded-bl-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute -bottom-2 -right-2 w-8 h-8 border-b-2 border-r-2 border-rose-300 rounded-br-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    
+                    {/* Card with enhanced design */}
+                    <div className="bg-gradient-to-br from-white to-rose-50 rounded-2xl shadow-lg overflow-hidden border border-rose-100 group-hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                      {/* Top accent bar */}
+                      <div className="h-2 bg-gradient-to-r from-rose-400 to-pink-400"></div>
+                      
+                      {/* Card content */}
+                      <div className="p-5">
+                        <FlowerCard flower={flower} />
+                      </div>
+                      
+                      {/* Bottom decorative element */}
+                      <div className="px-5 pb-4">
+                        <div className="flex items-center justify-center">
+                          <div className="flex space-x-1">
+                            {[1, 2, 3].map((i) => (
+                              <div 
+                                key={i}
+                                className="w-2 h-2 rounded-full bg-gradient-to-r from-rose-300 to-pink-300 opacity-70"
+                                style={{ animationDelay: `${i * 100}ms` }}
+                              ></div>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
+                )}
+                
+                {/* List View */}
+                {viewMode === "list" && (
+                  <>
+                    <div className="flex items-start gap-4">
+                      <div className="flex-shrink-0">
+                        <div className="relative">
+                          <div className="absolute -inset-2 bg-gradient-to-r from-rose-200 to-pink-200 rounded-2xl blur opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
+                          <div className="relative bg-white rounded-xl p-2 border border-rose-100">
+                            <FlowerCard flower={flower} />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex-1">
+                        <div className="mb-2">
+                          <h3 className="text-xl font-bold text-gray-900">{flower.name}</h3>
+                          <div className="flex items-center gap-2 mt-1">
+                            <span className="px-3 py-1 bg-gradient-to-r from-rose-100 to-pink-100 text-rose-700 rounded-full text-xs font-medium">
+                              {flower.season}
+                            </span>
+                            <span className="px-3 py-1 bg-gradient-to-r from-blue-100 to-cyan-100 text-blue-700 rounded-full text-xs font-medium">
+                              {flower.color}
+                            </span>
+                          </div>
+                        </div>
+                        <p className="text-gray-700 leading-relaxed">{flower.significance}</p>
+                        <div className="mt-4 pt-4 border-t border-rose-50">
+                          <div className="flex items-center gap-4 text-sm text-gray-600">
+                            <span className="flex items-center gap-1">
+                              <span className="w-2 h-2 rounded-full bg-rose-400"></span>
+                              Origin: {flower.origin}
+                            </span>
+                            <span className="flex items-center gap-1">
+                              <span className="w-2 h-2 rounded-full bg-pink-400"></span>
+                              Blooms: {flower.bloomingSeason}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* List view decorative elements */}
+                    <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-40 transition-opacity duration-300">
+                      <div className="text-3xl">🌸</div>
+                    </div>
+                  </>
                 )}
               </div>
             ))}
           </div>
         ) : (
-          <div className="text-center py-12">
-            <div className="inline-flex p-4 rounded-2xl bg-rose-50 mb-4">
-              <FiSearch className="text-2xl text-rose-600" />
+          <div className="text-center py-16">
+            <div className="inline-flex p-6 rounded-3xl bg-gradient-to-r from-rose-50 to-pink-50 mb-6 shadow-lg border border-rose-100">
+              <div className="relative">
+                <div className="absolute -inset-4 bg-gradient-to-r from-rose-200 to-pink-200 rounded-full blur-xl opacity-30"></div>
+                <FiSearch className="relative text-3xl text-rose-600" />
+              </div>
             </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">No flowers found</h3>
-            <p className="text-gray-600">Try a different search term or browse all flowers.</p>
+            <h3 className="text-2xl font-bold text-gray-900 mb-3">No flowers found</h3>
+            <p className="text-gray-600 max-w-md mx-auto mb-8">Try a different search term or browse all flowers in our collection.</p>
             <button
               onClick={() => setSearch("")}
-              className="mt-4 px-6 py-2 bg-rose-600 text-white rounded-lg hover:bg-rose-700 transition-colors"
+              className="px-8 py-3 bg-gradient-to-r from-rose-600 to-pink-600 text-white rounded-xl hover:from-rose-700 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
-              Clear Search
+              Clear Search & Show All Flowers
             </button>
           </div>
         )}
