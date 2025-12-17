@@ -7,15 +7,9 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const featuredFlowers = flowers.slice(0, 6);
+  const featuredFlowers = flowers.slice(0, 8); // Changed from 6 to 8 for 2 rows of 4
   const [heroFlowers, setHeroFlowers] = useState<Flower[]>([]);
-  const [flowerPositions, setFlowerPositions] = useState<Array<{
-    top: string;
-    left: string;
-    size: string;
-    rotation: number;
-    zIndex: number;
-  }>>([]);
+  const [bottomImages, setBottomImages] = useState<Flower[]>([]);
 
   // Function to get color code for placeholder (same as FlowerCard)
   const getColorCode = (): string => {
@@ -52,35 +46,34 @@ export default function Home() {
     return `/images/${flower.thumbnail_url}`;
   };
 
-  // Initialize random flowers and positions
+  // Initialize 5 curated flowers for hero grid
   useEffect(() => {
-    // Get 25 random flowers for more coverage
-    const shuffled = [...flowers].sort(() => 0.5 - Math.random()).slice(0, 25);
-    setHeroFlowers(shuffled);
-
-    // Generate random positions for each flower
-    const positions = shuffled.map(() => {
-      // Random positions avoiding the text area in top-left
-      let top, left;
-      do {
-        top = Math.random() * 85 + 5; // 5% to 90%
-        left = Math.random() * 85 + 5; // 5% to 90%
-      } while (top < 45 && left < 60); // Further increased avoidance area for text box
-
-      const size = Math.random() * 50 + 25; // 25px to 75px base size
-      const rotation = Math.random() * 20 - 10; // -10 to +10 degrees
-      const zIndex = Math.floor(Math.random() * 5); // Lower z-index so text stays on top
-
-      return {
-        top: `${top}%`,
-        left: `${left}%`,
-        size: `${size}px`,
-        rotation,
-        zIndex,
-      };
-    });
-
-    setFlowerPositions(positions);
+    const selectedIndices = [12, 45, 28, 67, 8];
+    const selectedFlowers = selectedIndices.map(i => flowers[i]).filter(Boolean);
+    
+    if (selectedFlowers.length < 5) {
+      const additional = [...flowers]
+        .filter(f => !selectedFlowers.includes(f))
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 5 - selectedFlowers.length);
+      selectedFlowers.push(...additional);
+    }
+    
+    setHeroFlowers(selectedFlowers.slice(0, 5));
+    
+    // Initialize different images for bottom boxes (indices 15, 22)
+    const bottomIndices = [15, 22];
+    const bottomFlowers = bottomIndices.map(i => flowers[i]).filter(Boolean);
+    
+    if (bottomFlowers.length < 2) {
+      const additional = [...flowers]
+        .filter(f => !selectedFlowers.includes(f) && !bottomFlowers.includes(f))
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 2 - bottomFlowers.length);
+      bottomFlowers.push(...additional);
+    }
+    
+    setBottomImages(bottomFlowers.slice(0, 2));
   }, []);
 
   // Get random flowers for blog images
@@ -122,7 +115,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section with text at top-left */}
+      {/* Hero Section with Larger Asymmetric CSS Grid */}
       <section className="relative overflow-hidden bg-gradient-to-br from-rose-50 via-white to-pink-50 py-12 md:py-16 min-h-[90vh]">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
@@ -132,110 +125,206 @@ export default function Home() {
           }} />
         </div>
 
-        {/* Randomly scattered flower images - Behind content */}
-        <div className="absolute inset-0">
-          {heroFlowers.map((flower, index) => {
-            const position = flowerPositions[index];
-            if (!position) return null;
-
-            const size = position.size;
-            const isLarge = parseFloat(size) > 55;
-            const isMedium = parseFloat(size) > 40;
-
-            return (
-              <div
-                key={`${flower.slug}-${index}`}
-                className="absolute overflow-hidden rounded-lg transition-all duration-500 hover:scale-110 hover:z-30"
-                style={{
-                  top: position.top,
-                  left: position.left,
-                  width: `calc(${position.size} * 2)`,
-                  height: `calc(${position.size} * 2)`,
-                  transform: `rotate(${position.rotation}deg)`,
-                  zIndex: position.zIndex,
-                  boxShadow: isLarge
-                    ? '0 25px 50px -12px rgba(0, 0, 0, 0.15)'
-                    : isMedium
-                      ? '0 20px 25px -5px rgba(0, 0, 0, 0.1)'
-                      : '0 10px 15px -3px rgba(0, 0, 0, 0.07)',
-                  filter: isLarge ? 'brightness(1.05)' : 'brightness(1)',
-                }}
-              >
-                <div className="relative w-full h-full">
+        {/* Larger Asymmetric CSS Grid - Bigger size */}
+        <div className="absolute top-1/2 right-8 md:right-16 lg:right-32 transform -translate-y-1/2">
+          <div className="grid grid-cols-3 grid-rows-3 gap-5 w-[600px] h-[600px]">
+            {/* Primary Grid Cell - Featured image (spans 2x2) - Larger */}
+            <div className="relative col-span-2 row-span-2 overflow-hidden rounded-2xl group">
+              {heroFlowers[0] && (
+                <>
                   <img
-                    src={getImageUrl(flower)}
-                    alt={flower.name}
-                    className="w-full h-full object-cover"
+                    src={getImageUrl(heroFlowers[0])}
+                    alt={heroFlowers[0].name}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     onError={(e) => {
                       const target = e.currentTarget;
-                      target.src = getPlaceholderImage(flower.name);
+                      target.src = getPlaceholderImage(heroFlowers[0].name);
                       target.onerror = null;
                     }}
                   />
-                  <div className={`absolute inset-0 ${isLarge
-                    ? 'bg-gradient-to-tr from-black/20 via-transparent to-transparent'
-                    : isMedium
-                      ? 'bg-gradient-to-t from-black/15 to-transparent'
-                      : 'bg-gradient-to-t from-black/10 to-transparent'
-                    }`}></div>
-                </div>
-              </div>
-            );
-          })}
+                  <div className="absolute inset-0 bg-gradient-to-tr from-black/20 via-black/10 to-transparent"></div>
+                  <div className="absolute top-5 left-5">
+                    <span className="bg-gradient-to-r from-rose-500 to-pink-500 text-white text-sm font-semibold px-4 py-2 rounded-full shadow-lg">
+                      Featured
+                    </span>
+                  </div>
+                </>
+              )}
+              <div className="absolute inset-0 border-3 border-white/40 rounded-2xl"></div>
+            </div>
+
+            {/* Secondary Grid Cell 1 - Top right */}
+            <div className="relative overflow-hidden rounded-xl group">
+              {heroFlowers[1] && (
+                <>
+                  <img
+                    src={getImageUrl(heroFlowers[1])}
+                    alt={heroFlowers[1].name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      target.src = getPlaceholderImage(heroFlowers[1].name);
+                      target.onerror = null;
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
+                </>
+              )}
+              <div className="absolute inset-0 border-2 border-white/30 rounded-xl"></div>
+            </div>
+
+            {/* Secondary Grid Cell 2 - Middle right */}
+            <div className="relative overflow-hidden rounded-xl group">
+              {heroFlowers[2] && (
+                <>
+                  <img
+                    src={getImageUrl(heroFlowers[2])}
+                    alt={heroFlowers[2].name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      target.src = getPlaceholderImage(heroFlowers[2].name);
+                      target.onerror = null;
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
+                </>
+              )}
+              <div className="absolute inset-0 border-2 border-white/30 rounded-xl"></div>
+            </div>
+
+            {/* Tertiary Grid Cell 1 - Bottom left (spans 2 columns) */}
+            <div className="relative col-span-2 overflow-hidden rounded-xl group">
+              {heroFlowers[3] && (
+                <>
+                  <img
+                    src={getImageUrl(heroFlowers[3])}
+                    alt={heroFlowers[3].name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      target.src = getPlaceholderImage(heroFlowers[3].name);
+                      target.onerror = null;
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
+                </>
+              )}
+              <div className="absolute inset-0 border-2 border-white/30 rounded-xl"></div>
+            </div>
+
+            {/* Tertiary Grid Cell 2 - Bottom right */}
+            <div className="relative overflow-hidden rounded-xl group">
+              {heroFlowers[4] && (
+                <>
+                  <img
+                    src={getImageUrl(heroFlowers[4])}
+                    alt={heroFlowers[4].name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      target.src = getPlaceholderImage(heroFlowers[4].name);
+                      target.onerror = null;
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-transparent"></div>
+                </>
+              )}
+              <div className="absolute inset-0 border-2 border-white/30 rounded-xl"></div>
+            </div>
+          </div>
         </div>
 
-        {/* Decorative elements behind flowers */}
+        {/* Decorative elements */}
         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-pink-200 rounded-full opacity-5 blur-3xl"></div>
         <div className="absolute bottom-1/4 left-1/4 w-80 h-80 bg-rose-200 rounded-full opacity-5 blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 w-72 h-72 bg-purple-200 rounded-full opacity-5 blur-3xl"></div>
 
-        {/* Text content positioned top-left - Above flowers */}
+        {/* Text content with two small image boxes below */}
         <div className="relative h-full">
-          {/* Text box container with lower z-index to scroll behind navbar */}
-<div className="absolute top-0 left-[6rem] md:left-[7.5rem] lg:left-[9.5rem] max-w-xl z-10">
-  <div className="absolute inset-0 bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg -z-10"></div>
-            <div className="relative p-5 md:p-6">
-              <span className="inline-block rounded-full bg-gradient-to-r from-pink-500 to-rose-500 px-3 py-1 text-xs font-semibold text-white mb-3">
-                Divine Floral Wisdom
-              </span>
+          <div className="absolute -top-4 left-[5rem] md:left-[7rem] lg:left-[9rem] max-w-xl z-10">
+            <span className="inline-block rounded-full bg-gradient-to-r from-pink-500 to-rose-500 px-3 py-1 text-xs font-semibold text-white mb-3">
+              Divine Floral Wisdom
+            </span>
 
-              <h1 className="mb-4 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">
-                The Significance of Flowers
-              </h1>
+            <h1 className="mb-4 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">
+              The Significance of Flowers
+            </h1>
 
-              <div className="mb-4 text-sm md:text-base text-gray-700 leading-relaxed space-y-3 italic">
-                <p className="border-l-4 border-pink-300 pl-4 py-1">
-                  "When I give flowers, it is an answer to the aspiration coming from the very depths of your being.
-                </p>
-                <p className="border-l-4 border-rose-300 pl-4 py-1">
-                  It is an aspiration or a need - it depends on the person. It may fill a void, or else give you the impetus to progress, or it may help you to find the inner harmony to establish peace.
-                </p>
-                <p className="border-l-4 border-pink-300 pl-4 py-1">
-                  I give you flowers so that you may develop the Divine qualities they symbolize. And they can directly transmit into your soul all that they contain, pure, unalloyed. They possess a very subtle and very deep power and influence."
-                </p>
+            <div className="mb-4 text-sm md:text-base text-gray-800 leading-relaxed space-y-3 italic">
+              <p className="border-l-4 border-pink-300 pl-4 py-1">
+                "When I give flowers, it is an answer to the aspiration coming from the very depths of your being.
+              </p>
+              <p className="border-l-4 border-rose-300 pl-4 py-1">
+                It is an aspiration or a need - it depends on the person. It may fill a void, or else give you the impetus to progress, or it may help you to find the inner harmony to establish peace.
+              </p>
+              <p className="border-l-4 border-pink-300 pl-4 py-1">
+                I give you flowers so that you may develop the Divine qualities they symbolize. And they can directly transmit into your soul all that they contain, pure, unalloyed. They possess a very subtle and very deep power and influence."
+              </p>
+            </div>
+
+            <div className="mt-5 flex flex-col sm:flex-row gap-2">
+              <Link
+                to="/flowers"
+                className="inline-flex items-center justify-center gap-1 rounded-full bg-gradient-to-r from-rose-500 to-pink-500 px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl hover:from-rose-600 hover:to-pink-600"
+              >
+                Explore Flower Meanings
+                <FiArrowRight className="text-sm" />
+              </Link>
+              <Link
+                to="/message-of-flowers"
+                className="inline-flex items-center justify-center gap-1 rounded-full border-2 border-rose-200 bg-white/80 backdrop-blur-sm px-5 py-2.5 text-sm font-semibold text-rose-600 transition-all hover:bg-rose-50 hover:border-rose-300"
+              >
+                Discover Symbolism
+              </Link>
+            </div>
+
+            {/* Two small image boxes below the text - FIXED to match hero grid size */}
+            <div className="mt-5 flex gap-3 h-[183px]"> {/* Fixed height to match grid cell size */}
+              {/* Wider image box - matches hero grid bottom-left cell (2 columns) */}
+              <div className="relative overflow-hidden rounded-xl group flex-[2] h-full">
+                {bottomImages[0] && (
+                  <>
+                    <img
+                      src={getImageUrl(bottomImages[0])}
+                      alt={bottomImages[0].name}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      onError={(e) => {
+                        const target = e.currentTarget;
+                        target.src = getPlaceholderImage(bottomImages[0].name);
+                        target.onerror = null;
+                      }}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/10 to-transparent"></div>
+                  </>
+                )}
+                <div className="absolute inset-0 border-2 border-white/50 rounded-xl"></div>
               </div>
 
-              <div className="mt-5 flex flex-col sm:flex-row gap-2">
-                <Link
-                  to="/flowers"
-                  className="inline-flex items-center justify-center gap-1 rounded-full bg-gradient-to-r from-rose-500 to-pink-500 px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl hover:from-rose-600 hover:to-pink-600"
-                >
-                  Explore Flower Meanings
-                  <FiArrowRight className="text-sm" />
-                </Link>
-                <Link
-                  to="/message-of-flowers"
-                  className="inline-flex items-center justify-center gap-1 rounded-full border-2 border-rose-200 bg-white/80 backdrop-blur-sm px-5 py-2.5 text-sm font-semibold text-rose-600 transition-all hover:bg-rose-50 hover:border-rose-300"
-                >
-                  Discover Symbolism
-                </Link>
+              {/* Smaller image box - matches hero grid bottom-right cell size */}
+              <div className="relative overflow-hidden rounded-xl group flex-1 h-full">
+                {bottomImages[1] && (
+                  <>
+                    <img
+                      src={getImageUrl(bottomImages[1])}
+                      alt={bottomImages[1].name}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      onError={(e) => {
+                        const target = e.currentTarget;
+                        target.src = getPlaceholderImage(bottomImages[1].name);
+                        target.onerror = null;
+                      }}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/10 to-transparent"></div>
+                  </>
+                )}
+                <div className="absolute inset-0 border-2 border-white/50 rounded-xl"></div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Featured Flowers - Start directly after Hero */}
+      {/* Featured Flowers - Now with 4 images per row */}
       <section className="py-16 bg-gradient-to-b from-white to-rose-50/30">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -249,7 +338,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {/* Changed from lg:grid-cols-3 to lg:grid-cols-4 */}
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {featuredFlowers.map((flower: Flower) => (
               <FlowerCard key={flower.slug} flower={flower} />
             ))}
@@ -267,7 +357,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Latest Blogs Section - ADDED ABOVE Why Explore With Us? */}
+      {/* Latest Blogs Section */}
       <section className="py-16 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -336,7 +426,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Explore With Us? Section - MOVED BELOW Latest Blogs */}
+      {/* Why Explore With Us? Section */}
       <section className="py-16 bg-gradient-to-b from-white to-rose-50/30">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">

@@ -1,11 +1,19 @@
 // src/components/Navbar.tsx
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FiSearch, FiUser, FiMenu } from "react-icons/fi";
-import { FaLeaf } from "react-icons/fa";
+import defaultLogo from "../assets/flowers.jpg"; // relative path to your logo
 
 export default function Navbar() {
   const location = useLocation();
-  
+  const [logoSrc, setLogoSrc] = useState<string>(defaultLogo);
+
+  // Load logo path from localStorage (if stored)
+  useEffect(() => {
+    const storedLogo = localStorage.getItem("logoPath");
+    if (storedLogo) setLogoSrc(storedLogo);
+  }, []);
+
   const navLinks = [
     { to: "/", label: "Home" },
     { to: "/flowers", label: "Flowers" },
@@ -22,12 +30,16 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           
-          {/* Logo */}
+          {/* Logo - Updated: Removed gradient background */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-pink-500 to-rose-600">
-              <FaLeaf className="text-xl text-white" />
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg">
+              <img 
+                src={logoSrc} 
+                alt="FloraVerse Logo" 
+                className="h-10 w-10 object-cover rounded-lg" 
+              />
             </div>
-            <span className="text-xl font-bold text-gray-900">FloraVerse</span>
+            <span className="text-xl font-bold text-gray-900">FlowerSong</span>
           </Link>
 
           {/* Desktop Navigation */}
