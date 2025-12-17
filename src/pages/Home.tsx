@@ -2,7 +2,7 @@
 import flowers from "../data/flowers.json";
 import type { Flower } from "../types/flower";
 import FlowerCard from "../components/FlowerCard";
-import { FiArrowRight, FiHeart, FiStar, FiAward } from "react-icons/fi";
+import { FiArrowRight, FiHeart, FiStar, FiAward, FiCalendar } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
@@ -44,11 +44,11 @@ export default function Home() {
     if (!flower.thumbnail_url) {
       return getPlaceholderImage(flower.name);
     }
-    
+
     if (flower.thumbnail_url.startsWith('http')) {
       return flower.thumbnail_url;
     }
-    
+
     return `/images/${flower.thumbnail_url}`;
   };
 
@@ -57,7 +57,7 @@ export default function Home() {
     // Get 25 random flowers for more coverage
     const shuffled = [...flowers].sort(() => 0.5 - Math.random()).slice(0, 25);
     setHeroFlowers(shuffled);
-    
+
     // Generate random positions for each flower
     const positions = shuffled.map(() => {
       // Random positions avoiding the text area in top-left
@@ -65,12 +65,12 @@ export default function Home() {
       do {
         top = Math.random() * 85 + 5; // 5% to 90%
         left = Math.random() * 85 + 5; // 5% to 90%
-      } while (top < 35 && left < 50); // Increased avoidance area for top-left corner
-      
+      } while (top < 45 && left < 60); // Further increased avoidance area for text box
+
       const size = Math.random() * 50 + 25; // 25px to 75px base size
       const rotation = Math.random() * 20 - 10; // -10 to +10 degrees
       const zIndex = Math.floor(Math.random() * 5); // Lower z-index so text stays on top
-      
+
       return {
         top: `${top}%`,
         left: `${left}%`,
@@ -79,9 +79,46 @@ export default function Home() {
         zIndex,
       };
     });
-    
+
     setFlowerPositions(positions);
   }, []);
+
+  // Get random flowers for blog images
+  const blogFlowers = [...flowers].sort(() => 0.5 - Math.random()).slice(0, 3);
+
+  // Blog data with your requested content
+  const blogs = [
+    {
+      id: 1,
+      title: "Intimacy with the Divine (Part 1)",
+      date: "08 Jan",
+      author: "Richard Eggenberger",
+      description: "Exploring the spiritual connection between human consciousness and floral symbolism in sacred traditions.",
+      category: "Spirituality",
+      slug: "intimacy-with-divine-part1",
+      flower: blogFlowers[0]
+    },
+    {
+      id: 2,
+      title: "The Mystical World of Bulbs (Part 1)",
+      date: "08 Jan",
+      author: "Richard Eggenberger",
+      description: "Unveiling the hidden symbolism and spiritual significance of bulb flowers across different cultures.",
+      category: "Mysticism",
+      slug: "mystical-bulbs-part1",
+      flower: blogFlowers[1]
+    },
+    {
+      id: 3,
+      title: "Silence and the Passion Flowers (Part 1)",
+      date: "08 Jan",
+      author: "Richard Eggenberger",
+      description: "How moments of quiet contemplation reveal the deeper meanings within passion flower symbolism.",
+      category: "Contemplation",
+      slug: "silence-passion-flowers-part1",
+      flower: blogFlowers[2]
+    }
+  ];
 
   return (
     <div className="min-h-screen bg-white">
@@ -94,17 +131,17 @@ export default function Home() {
             backgroundSize: '60px 60px'
           }} />
         </div>
-        
+
         {/* Randomly scattered flower images - Behind content */}
         <div className="absolute inset-0">
           {heroFlowers.map((flower, index) => {
             const position = flowerPositions[index];
             if (!position) return null;
-            
+
             const size = position.size;
             const isLarge = parseFloat(size) > 55;
             const isMedium = parseFloat(size) > 40;
-            
+
             return (
               <div
                 key={`${flower.slug}-${index}`}
@@ -116,16 +153,16 @@ export default function Home() {
                   height: `calc(${position.size} * 2)`,
                   transform: `rotate(${position.rotation}deg)`,
                   zIndex: position.zIndex,
-                  boxShadow: isLarge 
-                    ? '0 25px 50px -12px rgba(0, 0, 0, 0.15)' 
-                    : isMedium 
-                    ? '0 20px 25px -5px rgba(0, 0, 0, 0.1)'
-                    : '0 10px 15px -3px rgba(0, 0, 0, 0.07)',
+                  boxShadow: isLarge
+                    ? '0 25px 50px -12px rgba(0, 0, 0, 0.15)'
+                    : isMedium
+                      ? '0 20px 25px -5px rgba(0, 0, 0, 0.1)'
+                      : '0 10px 15px -3px rgba(0, 0, 0, 0.07)',
                   filter: isLarge ? 'brightness(1.05)' : 'brightness(1)',
                 }}
               >
                 <div className="relative w-full h-full">
-                  <img 
+                  <img
                     src={getImageUrl(flower)}
                     alt={flower.name}
                     className="w-full h-full object-cover"
@@ -135,13 +172,12 @@ export default function Home() {
                       target.onerror = null;
                     }}
                   />
-                  <div className={`absolute inset-0 ${
-                    isLarge 
-                      ? 'bg-gradient-to-tr from-black/20 via-transparent to-transparent' 
-                      : isMedium
+                  <div className={`absolute inset-0 ${isLarge
+                    ? 'bg-gradient-to-tr from-black/20 via-transparent to-transparent'
+                    : isMedium
                       ? 'bg-gradient-to-t from-black/15 to-transparent'
                       : 'bg-gradient-to-t from-black/10 to-transparent'
-                  }`}></div>
+                    }`}></div>
                 </div>
               </div>
             );
@@ -155,40 +191,43 @@ export default function Home() {
 
         {/* Text content positioned top-left - Above flowers */}
         <div className="relative h-full">
-          {/* Reduced padding to push content more to top-left */}
-          <div className="absolute top-4 left-4 md:top-8 md:left-8 lg:top-12 lg:left-12 max-w-md z-40">
-            {/* Semi-transparent background for text - Slightly smaller */}
-            <div className="absolute inset-0 bg-white/60 backdrop-blur-sm rounded-2xl -z-10"></div>
+          {/* Text box container with lower z-index to scroll behind navbar */}
+<div className="absolute top-0 left-[6rem] md:left-[7.5rem] lg:left-[9.5rem] max-w-xl z-10">
+  <div className="absolute inset-0 bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg -z-10"></div>
             <div className="relative p-5 md:p-6">
               <span className="inline-block rounded-full bg-gradient-to-r from-pink-500 to-rose-500 px-3 py-1 text-xs font-semibold text-white mb-3">
-                Discover Floral Secrets
+                Divine Floral Wisdom
               </span>
-              
-              <h1 className="mb-3 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">
-                The Hidden Language of
-                <span className="block mt-1 text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-pink-600">
-                  Flowers Revealed
-                </span>
+
+              <h1 className="mb-4 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">
+                The Significance of Flowers
               </h1>
-              
-              <p className="mb-5 text-sm md:text-base text-gray-700 leading-relaxed">
-                Explore the rich symbolism and secret messages behind nature's most beautiful creations. 
-                Each flower tells a story waiting to be discovered.
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-2">
+
+              <div className="mb-4 text-sm md:text-base text-gray-700 leading-relaxed space-y-3 italic">
+                <p className="border-l-4 border-pink-300 pl-4 py-1">
+                  "When I give flowers, it is an answer to the aspiration coming from the very depths of your being.
+                </p>
+                <p className="border-l-4 border-rose-300 pl-4 py-1">
+                  It is an aspiration or a need - it depends on the person. It may fill a void, or else give you the impetus to progress, or it may help you to find the inner harmony to establish peace.
+                </p>
+                <p className="border-l-4 border-pink-300 pl-4 py-1">
+                  I give you flowers so that you may develop the Divine qualities they symbolize. And they can directly transmit into your soul all that they contain, pure, unalloyed. They possess a very subtle and very deep power and influence."
+                </p>
+              </div>
+
+              <div className="mt-5 flex flex-col sm:flex-row gap-2">
                 <Link
                   to="/flowers"
                   className="inline-flex items-center justify-center gap-1 rounded-full bg-gradient-to-r from-rose-500 to-pink-500 px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl hover:from-rose-600 hover:to-pink-600"
                 >
-                  Browse Collection
+                  Explore Flower Meanings
                   <FiArrowRight className="text-sm" />
                 </Link>
                 <Link
                   to="/message-of-flowers"
                   className="inline-flex items-center justify-center gap-1 rounded-full border-2 border-rose-200 bg-white/80 backdrop-blur-sm px-5 py-2.5 text-sm font-semibold text-rose-600 transition-all hover:bg-rose-50 hover:border-rose-300"
                 >
-                  Learn Meanings
+                  Discover Symbolism
                 </Link>
               </div>
             </div>
@@ -200,21 +239,25 @@ export default function Home() {
       <section className="py-16 bg-gradient-to-b from-white to-rose-50/30">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Featured Flowers</h2>
-            <p className="mx-auto max-w-2xl text-gray-600">
-              Discover our handpicked collection of blooms, each with unique stories and cultural significance.
-            </p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Collection</h2>
+            <div className="mx-auto max-w-2xl">
+              <p className="text-gray-700 text-lg italic leading-relaxed">
+                Flowers indicate a blossoming in the consciousness, sometimes with special
+                reference to the psychic or the psychicised vital, mental, and physical
+                consciousness.
+              </p>
+            </div>
           </div>
-          
+
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {featuredFlowers.map((flower: Flower) => (
               <FlowerCard key={flower.slug} flower={flower} />
             ))}
           </div>
-          
+
           <div className="mt-12 text-center">
-            <Link 
-              to="/flowers" 
+            <Link
+              to="/flowers"
               className="inline-flex items-center gap-2 rounded-lg border border-rose-300 bg-white px-6 py-3 text-sm font-semibold text-rose-600 transition-all hover:bg-rose-50"
             >
               View All Flowers
@@ -224,14 +267,83 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
+      {/* Latest Blogs Section - ADDED ABOVE Why Explore With Us? */}
       <section className="py-16 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Latest Blogs</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Deepen your understanding with insights into floral spirituality and symbolism
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {blogs.map((blog) => (
+              <div key={blog.id} className="bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src={getImageUrl(blog.flower)}
+                    alt={blog.flower.name}
+                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      target.src = getPlaceholderImage(blog.flower.name);
+                      target.onerror = null;
+                    }}
+                  />
+                  <div className="absolute top-3 left-3">
+                    <span className="bg-gradient-to-r from-rose-500 to-pink-500 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                      {blog.category}
+                    </span>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-2 text-sm text-gray-500 mb-2">
+                    <FiCalendar className="text-rose-400" />
+                    <span>{blog.date} 2025</span>
+                    <span className="mx-2">•</span>
+                    <span className="text-rose-600 font-medium">Part 1</span>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">
+                    {blog.title}
+                  </h3>
+                  <p className="text-gray-600 mb-4 text-sm italic">
+                    {blog.description}
+                  </p>
+                  <div className="border-t border-gray-100 pt-4 mt-4">
+                    <p className="text-sm text-gray-500 mb-3">
+                      <span className="font-medium">Written by:</span> {blog.author}
+                    </p>
+                    <span className="inline-flex items-center gap-1 text-sm font-semibold text-rose-600">
+                      Read More
+                      <FiArrowRight className="text-xs" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-12 text-center">
+            <Link
+              to="/blogs"
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-rose-500 to-pink-500 px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl"
+            >
+              View All Blog Posts
+              <FiArrowRight className="text-sm" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Explore With Us? Section - MOVED BELOW Latest Blogs */}
+      <section className="py-16 bg-gradient-to-b from-white to-rose-50/30">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Explore With Us?</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">Experience floral symbolism like never before</p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6">
               <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-rose-100 to-pink-100 mb-4">
@@ -240,7 +352,7 @@ export default function Home() {
               <h3 className="text-xl font-bold text-gray-900 mb-2">Rich History</h3>
               <p className="text-gray-600">Explore floral symbolism from Victorian era to modern times with detailed historical context.</p>
             </div>
-            
+
             <div className="text-center p-6">
               <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-pink-100 to-rose-100 mb-4">
                 <FiStar className="text-2xl text-pink-600" />
@@ -248,7 +360,7 @@ export default function Home() {
               <h3 className="text-xl font-bold text-gray-900 mb-2">Cultural Insights</h3>
               <p className="text-gray-600">Discover how different cultures interpret the same flower across the globe.</p>
             </div>
-            
+
             <div className="text-center p-6">
               <div className="inline-flex p-4 rounded-2xl bg-gradient-to-br from-rose-100 to-pink-100 mb-4">
                 <FiAward className="text-2xl text-rose-600" />

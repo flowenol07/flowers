@@ -7,6 +7,9 @@ import { FiChevronLeft, FiHeart, FiShare2, FiChevronRight, FiInfo, FiDroplet, Fi
 // Debug: Log the first flower to see structure
 console.log("First flower in flowerDetails:", flowerDetails[0]);
 
+// Base URL for flower images
+const FLOWERS_ASSETS_BASE_URL = "https://flowers-assets.s3-ap-southeast-1.amazonaws.com/img/";
+
 export default function FlowerDetails() {
   const { slug } = useParams();
   const flower: any = flowerDetails.find((f: any) => f.slug === slug);
@@ -59,13 +62,47 @@ export default function FlowerDetails() {
     return `https://placehold.co/600x600/${colorCode}/white?text=${text}`;
   };
 
+  // Function to normalize and fix URL
+  const normalizeUrl = (url: string): string => {
+    if (!url || url.trim() === "") return "";
+    
+    // Remove any backslashes
+    let normalizedUrl = url.replace(/\\/g, '');
+    
+    // Check if it's already a full URL
+    if (normalizedUrl.startsWith('http://') || normalizedUrl.startsWith('https://')) {
+      return normalizedUrl;
+    }
+    
+    // Check if it's a data URL
+    if (normalizedUrl.startsWith('data:')) {
+      return normalizedUrl;
+    }
+    
+    // Check if it's a relative URL starting with /
+    if (normalizedUrl.startsWith('/')) {
+      return normalizedUrl;
+    }
+    
+    // For flower song URLs, extract the path and prepend with assets base URL
+    if (normalizedUrl.includes('flowersong.in/flowers/')) {
+      const pathMatch = normalizedUrl.match(/flowersong\.in\/flowers\/(.+)/);
+      if (pathMatch && pathMatch[1]) {
+        return `${FLOWERS_ASSETS_BASE_URL}${pathMatch[1]}`;
+      }
+    }
+    
+    // For other relative paths, prepend with assets base URL
+    return `${FLOWERS_ASSETS_BASE_URL}${normalizedUrl}`;
+  };
+
   // Function to get image path - CHECK ALL POSSIBLE PROPERTIES
   const getImagePath = (flower: any, variant: any = null): string => {
     // Try to get image from variant first, then flower
     const imageSource = variant || flower;
     
     // Check all possible image properties in order of priority
-    const possibleImageProps = ['thumbnail_url', 'image_url', 'image', 'picture', 'photo'];
+    const possibleImageProps = ['thumbnail_url', 'image_url', 'image', 'picture', 'photo', 'url'];
     
     let imageUrl = "";
     for (const prop of possibleImageProps) {
@@ -82,18 +119,17 @@ export default function FlowerDetails() {
       return getPlaceholderImage(name, color);
     }
     
-    // If it's already a full URL, use it as-is
-    if (imageUrl.startsWith('http://') || imageUrl.startsWith('https://')) {
-      return imageUrl;
+    // Normalize the URL
+    const normalizedUrl = normalizeUrl(imageUrl);
+    
+    // If normalization returned empty string, use placeholder
+    if (!normalizedUrl) {
+      const color = variant?.colour || flower?.colour || "pink";
+      const name = flower?.name || "Flower";
+      return getPlaceholderImage(name, color);
     }
     
-    // Check if it's a data URL
-    if (imageUrl.startsWith('data:')) {
-      return imageUrl;
-    }
-    
-    // Otherwise, prepend with /images/ for local images
-    return `/images/${imageUrl}`;
+    return normalizedUrl;
   };
 
   // Initialize active variant and image source
@@ -199,7 +235,7 @@ export default function FlowerDetails() {
               <div className="absolute -top-3 -left-3 w-6 h-6 border-t-2 border-l-2 border-rose-400 rounded-tl-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="absolute -top-3 -right-3 w-6 h-6 border-t-2 border-r-2 border-rose-400 rounded-tr-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="absolute -bottom-3 -left-3 w-6 h-6 border-b-2 border-l-2 border-rose-400 rounded-bl-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="absolute -bottom-3 -right-3 w-6 h-6 border-b-2 border-r-2 border-rose-400 rounded-br-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute -bottom-3 -right-3 w-6 h-6 border-b-2 border-r-2 border-rose-400 rounded-br-lg opacity=0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
               <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-rose-50 via-white to-pink-50 border-2 border-rose-100/50 shadow-xl group-hover:shadow-2xl transition-all duration-500">
                 {/* Top Gradient Accent */}
