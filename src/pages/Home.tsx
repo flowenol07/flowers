@@ -479,7 +479,7 @@ export default function Home() {
           </div>
 
           <div className="mt-12 border-t border-gray-700 pt-8 text-center text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Floral Wisdom. All rights reserved.
+            &copy; {new Date().getFullYear()} Flower Song. All rights reserved.
           </div>
         </div>
       </footer>
