@@ -328,7 +328,7 @@ export default function Home() {
       </section>
 
       {/* Featured Flowers Section - Professional Design */}
-      <section className="relative py-20 bg-gradient-to-b from-white via-rose-50/20 to-white">
+      <section className="relative pt-20 pb-10 bg-gradient-to-b from-white via-rose-50/20 to-white">
         {/* Background decorative elements */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -top-24 -right-24 w-96 h-96 bg-gradient-to-br from-rose-100/40 to-pink-100/20 rounded-full blur-3xl"></div>
@@ -340,7 +340,7 @@ export default function Home() {
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           {/* Section Header with elegant design */}
-          <div className="text-center mb-16">
+          <div className="text-center -mt-16 mb-16">
             <div className="inline-flex items-center gap-3 mb-4">
               <div className="w-12 h-px bg-gradient-to-r from-transparent via-rose-400 to-transparent"></div>
               <span className="text-sm font-semibold tracking-widest text-rose-600 uppercase">
@@ -350,30 +350,29 @@ export default function Home() {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Sacred <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-pink-500">Floral Collection</span>
+              Sacred{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-600 to-pink-500">
+                Floral Collection
+              </span>
             </h2>
 
             <div className="mx-auto max-w-3xl">
-              <div className="relative">
-                <div className="absolute -inset-1 bg-gradient-to-r from-rose-400 to-pink-400 rounded-lg blur opacity-20"></div>
-                <div className="relative bg-white/80 backdrop-blur-sm rounded-lg p-6 border border-white/40 shadow-xl">
-                  <p className="text-gray-700 text-lg italic leading-relaxed font-serif">
-                    "Flowers indicate a blossoming in the consciousness, sometimes with special
-                    reference to the psychic or the psychicised vital, mental, and physical
-                    consciousness."
-                  </p>
-                  <div className="mt-4 flex items-center justify-center gap-2">
-                    <div className="w-8 h-px bg-gradient-to-r from-rose-300 to-pink-300"></div>
-                    <span className="text-sm text-gray-500">Sri Aurobindo</span>
-                    <div className="w-8 h-px bg-gradient-to-r from-pink-300 to-rose-300"></div>
-                  </div>
-                </div>
+              <p className="text-gray-700 text-lg italic leading-relaxed font-serif">
+                “Flowers indicate a blossoming in the consciousness, sometimes with special
+                reference to the psychic or the psychicised vital, mental, and physical
+                consciousness.”
+              </p>
+
+              <div className="mt-4 flex items-center justify-center gap-2">
+                <div className="w-8 h-px bg-gradient-to-r from-rose-300 to-pink-300"></div>
+                <span className="text-sm text-gray-500">Sri Aurobindo</span>
+                <div className="w-8 h-px bg-gradient-to-r from-pink-300 to-rose-300"></div>
               </div>
             </div>
           </div>
 
           {/* Flowers Grid with enhanced styling */}
-          <div className="relative mb-16">
+          <div className="relative mb-8">
             {/* Grid background effect */}
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/30 to-transparent rounded-3xl"></div>
 
@@ -411,32 +410,14 @@ export default function Home() {
 
           {/* CTA Button with elegant styling */}
           <div className="text-center">
-            <div className="relative inline-block">
-              {/* Button background glow */}
-              <div className="absolute -inset-1 bg-gradient-to-r from-rose-500 to-pink-500 rounded-full blur opacity-30 group-hover:opacity-50 transition-opacity duration-300"></div>
+            <Link
+              to="/flowers"
+              className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium text-white bg-rose-600 rounded-md hover:bg-rose-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2"
+            >
+              <FiArrowRight className="text-base" />
+              <span>Explore All Sacred Flowers</span>
+            </Link>
 
-              <Link
-                to="/flowers"
-                className="relative inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-white to-rose-50 px-8 py-4 text-sm font-semibold text-gray-900 shadow-xl border border-white/50 backdrop-blur-sm transition-all duration-300 hover:shadow-2xl hover:scale-105 group"
-              >
-                <div className="relative">
-                  <div className="absolute -inset-1 bg-gradient-to-r from-rose-400 to-pink-400 rounded-full blur opacity-75 group-hover:opacity-100"></div>
-                  <div className="relative bg-gradient-to-r from-rose-500 to-pink-500 p-2 rounded-full">
-                    <FiArrowRight className="text-white text-lg" />
-                  </div>
-                </div>
-                <span className="bg-gradient-to-r from-rose-600 to-pink-500 bg-clip-text text-transparent font-bold tracking-wide">
-                  Explore All Sacred Flowers
-                </span>
-                <div className="absolute -right-2 top-1/2 transform -translate-y-1/2">
-                  <div className="w-2 h-2 bg-pink-400 rounded-full animate-pulse"></div>
-                </div>
-              </Link>
-
-              {/* Decorative dots */}
-              <div className="absolute -top-2 -left-2 w-3 h-3 bg-rose-300 rounded-full animate-ping opacity-75"></div>
-              <div className="absolute -bottom-2 -right-2 w-3 h-3 bg-pink-300 rounded-full animate-ping opacity-75 delay-300"></div>
-            </div>
 
             {/* Subtext */}
             <p className="mt-6 text-sm text-gray-500 max-w-md mx-auto">
@@ -447,7 +428,7 @@ export default function Home() {
       </section>
 
       {/* Latest Blogs Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white -mt-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Latest Blogs</h2>
@@ -509,271 +490,205 @@ export default function Home() {
       </section>
 
       {/* Footer Section */}
-<footer className="bg-gradient-to-b from-gray-900 to-gray-800 text-white py-12">
-  <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div className="grid grid-cols-2 lg:grid-cols-5 gap-8">
-      {/* Column 1: Logo and Description */}
-      <div className="lg:col-span-2">
-        <div className="flex items-center gap-3 mb-4">
-          <FiAward className="text-rose-400 text-2xl" />
-          <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-pink-400">
-            Flower Song
-          </h3>
-        </div>
-        <p className="text-gray-400 text-sm leading-relaxed max-w-md">
-          A spiritual journey through the divine language of flowers. Exploring the 
-          symbolic significance of blossoms in consciousness and their connection 
-          to higher realms of existence.
-        </p>
-        <div className="mt-6 flex gap-4">
-          <div className="bg-gradient-to-r from-rose-500/20 to-pink-500/20 backdrop-blur-sm rounded-lg p-3 border border-white/10">
-            <FiHeart className="text-rose-400 text-xl" />
-          </div>
-          <div className="bg-gradient-to-r from-rose-500/20 to-pink-500/20 backdrop-blur-sm rounded-lg p-3 border border-white/10">
-            <FiStar className="text-pink-400 text-xl" />
-          </div>
-          <div className="bg-gradient-to-r from-rose-500/20 to-pink-500/20 backdrop-blur-sm rounded-lg p-3 border border-white/10">
-            <FiAward className="text-rose-400 text-xl" />
-          </div>
-        </div>
-      </div>
-
-      {/* Column 2: Quick Links */}
-      <div>
-        <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
-          <div className="w-2 h-2 bg-rose-500 rounded-full"></div>
-          Explore
-        </h4>
-        <ul className="space-y-3">
-          <li>
-            <Link 
-              to="/" 
-              className="text-gray-400 hover:text-rose-300 transition-colors flex items-center gap-2 group"
-            >
-              <div className="w-1.5 h-1.5 bg-rose-400/50 rounded-full group-hover:bg-rose-400 transition-colors"></div>
-              <span>Home</span>
-            </Link>
-          </li>
-          <li>
-            <Link 
-              to="/flowers" 
-              className="text-gray-400 hover:text-rose-300 transition-colors flex items-center gap-2 group"
-            >
-              <div className="w-1.5 h-1.5 bg-rose-400/50 rounded-full group-hover:bg-rose-400 transition-colors"></div>
-              <span>Flower Library</span>
-            </Link>
-          </li>
-          <li>
-            <Link 
-              to="/message-of-flowers" 
-              className="text-gray-400 hover:text-rose-300 transition-colors flex items-center gap-2 group"
-            >
-              <div className="w-1.5 h-1.5 bg-rose-400/50 rounded-full group-hover:bg-rose-400 transition-colors"></div>
-              <span>Symbolic Meanings</span>
-            </Link>
-          </li>
-          <li>
-            <Link 
-              to="/blog" 
-              className="text-gray-400 hover:text-rose-300 transition-colors flex items-center gap-2 group"
-            >
-              <div className="w-1.5 h-1.5 bg-rose-400/50 rounded-full group-hover:bg-rose-400 transition-colors"></div>
-              <span>Spiritual Insights</span>
-            </Link>
-          </li>
-        </ul>
-      </div>
-
-      {/* Column 3: Resources */}
-      <div>
-        <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
-          <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
-          Resources
-        </h4>
-        <ul className="space-y-3">
-          <li>
-            <a 
-              href="/about" 
-              className="text-gray-400 hover:text-pink-300 transition-colors flex items-center gap-2 group"
-            >
-              <div className="w-1.5 h-1.5 bg-pink-400/50 rounded-full group-hover:bg-pink-400 transition-colors"></div>
-              <span>About Us</span>
-            </a>
-          </li>
-          <li>
-            <a 
-              href="/contact" 
-              className="text-gray-400 hover:text-pink-300 transition-colors flex items-center gap-2 group"
-            >
-              <div className="w-1.5 h-1.5 bg-pink-400/50 rounded-full group-hover:bg-pink-400 transition-colors"></div>
-              <span>Contact</span>
-            </a>
-          </li>
-          <li>
-            <a 
-              href="/privacy" 
-              className="text-gray-400 hover:text-pink-300 transition-colors flex items-center gap-2 group"
-            >
-              <div className="w-1.5 h-1.5 bg-pink-400/50 rounded-full group-hover:bg-pink-400 transition-colors"></div>
-              <span>Privacy Policy</span>
-            </a>
-          </li>
-          <li>
-            <a 
-              href="/terms" 
-              className="text-gray-400 hover:text-pink-300 transition-colors flex items-center gap-2 group"
-            >
-              <div className="w-1.5 h-1.5 bg-pink-400/50 rounded-full group-hover:bg-pink-400 transition-colors"></div>
-              <span>Terms of Service</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      {/* Column 4: Newsletter */}
-      <div>
-        <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
-          <div className="w-2 h-2 bg-rose-500 rounded-full"></div>
-          Newsletter
-        </h4>
-        <p className="text-gray-400 text-sm mb-4">
-          Subscribe to receive spiritual insights and floral wisdom directly in your inbox.
-        </p>
-        <form className="space-y-3">
-          <input
-            type="email"
-            placeholder="Your email address"
-            className="w-full px-4 py-3 rounded-lg bg-gray-700/50 border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-transparent backdrop-blur-sm"
-          />
-          <button
-            type="submit"
-            className="w-full bg-gradient-to-r from-rose-600 to-pink-600 hover:from-rose-700 hover:to-pink-700 text-white py-3 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-rose-500/20"
-          >
-            Subscribe
-          </button>
-        </form>
-      </div>
-    </div>
-
-    {/* New Section: Platform Links */}
-    <div className="mt-12 pt-8 border-t border-gray-700/50">
-      <div className="text-center mb-6">
-        <h4 className="text-lg font-semibold mb-2 flex items-center justify-center gap-2">
-          <FiAward className="text-rose-400" />
-          Explore Our Spiritual Ecosystem
-          <FiAward className="text-pink-400" />
-        </h4>
-        <p className="text-gray-400 text-sm max-w-2xl mx-auto">
-          Discover more divine wisdom across our integrated platforms
-        </p>
-      </div>
-      
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {/* IncarnateWord */}
-        <a 
-          href="https://incarnateword.in/" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="group bg-gradient-to-r from-gray-800 to-gray-900 hover:from-rose-900/30 hover:to-gray-900 rounded-xl p-4 border border-gray-700 hover:border-rose-500/50 transition-all duration-300 hover:scale-[1.02]"
-        >
-          <div className="flex items-center gap-3 mb-2">
-            <div className="bg-gradient-to-r from-rose-500/20 to-rose-600/20 p-2 rounded-lg">
-              <FiAward className="text-rose-400 text-lg" />
+      <footer className="bg-gradient-to-b from-gray-900 to-gray-800 text-white py-12">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-8">
+            {/* Column 1: Logo and Description */}
+            <div className="lg:col-span-2">
+              <div className="flex items-center gap-3 mb-4">
+                <FiAward className="text-rose-400 text-2xl" />
+                <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-pink-400">
+                  Flower Song
+                </h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed max-w-md">
+                A spiritual journey through the divine language of flowers. Exploring the
+                symbolic significance of blossoms in consciousness and their connection
+                to higher realms of existence.
+              </p>
+              <div className="mt-6 flex gap-4">
+                <div className="bg-gradient-to-r from-rose-500/20 to-pink-500/20 backdrop-blur-sm rounded-lg p-3 border border-white/10">
+                  <FiHeart className="text-rose-400 text-xl" />
+                </div>
+                <div className="bg-gradient-to-r from-rose-500/20 to-pink-500/20 backdrop-blur-sm rounded-lg p-3 border border-white/10">
+                  <FiStar className="text-pink-400 text-xl" />
+                </div>
+                <div className="bg-gradient-to-r from-rose-500/20 to-pink-500/20 backdrop-blur-sm rounded-lg p-3 border border-white/10">
+                  <FiAward className="text-rose-400 text-xl" />
+                </div>
+              </div>
             </div>
-            <span className="font-semibold text-white group-hover:text-rose-300 transition-colors">
-              IncarnateWord
-            </span>
-          </div>
-          <p className="text-gray-400 text-sm">
-            Explore the complete works and teachings
-          </p>
-        </a>
 
-        {/* VMLT */}
-        <a 
-          href="https://vmlt.in/" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="group bg-gradient-to-r from-gray-800 to-gray-900 hover:from-pink-900/30 hover:to-gray-900 rounded-xl p-4 border border-gray-700 hover:border-pink-500/50 transition-all duration-300 hover:scale-[1.02]"
-        >
-          <div className="flex items-center gap-3 mb-2">
-            <div className="bg-gradient-to-r from-pink-500/20 to-pink-600/20 p-2 rounded-lg">
-              <FiStar className="text-pink-400 text-lg" />
+            {/* Column 2: Quick Links */}
+            <div>
+              <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                <div className="w-2 h-2 bg-rose-500 rounded-full"></div>
+                Explore
+              </h4>
+              <ul className="space-y-3">
+                <li>
+                  <Link
+                    to="/"
+                    className="text-gray-400 hover:text-rose-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1.5 h-1.5 bg-rose-400/50 rounded-full group-hover:bg-rose-400 transition-colors"></div>
+                    <span>Home</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/flowers"
+                    className="text-gray-400 hover:text-rose-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1.5 h-1.5 bg-rose-400/50 rounded-full group-hover:bg-rose-400 transition-colors"></div>
+                    <span>Flower Library</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/message-of-flowers"
+                    className="text-gray-400 hover:text-rose-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1.5 h-1.5 bg-rose-400/50 rounded-full group-hover:bg-rose-400 transition-colors"></div>
+                    <span>Symbolic Meanings</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/blog"
+                    className="text-gray-400 hover:text-rose-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1.5 h-1.5 bg-rose-400/50 rounded-full group-hover:bg-rose-400 transition-colors"></div>
+                    <span>Spiritual Insights</span>
+                  </Link>
+                </li>
+              </ul>
             </div>
-            <span className="font-semibold text-white group-hover:text-pink-300 transition-colors">
-              VMLT Institute
-            </span>
-          </div>
-          <p className="text-gray-400 text-sm">
-            Visual Meditations and Learning Tools
-          </p>
-        </a>
 
-        {/* Auroverse */}
-        <a 
-          href="https://auroverse.in/" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="group bg-gradient-to-r from-gray-800 to-gray-900 hover:from-rose-900/30 hover:to-gray-900 rounded-xl p-4 border border-gray-700 hover:border-rose-500/50 transition-all duration-300 hover:scale-[1.02]"
-        >
-          <div className="flex items-center gap-3 mb-2">
-            <div className="bg-gradient-to-r from-rose-500/20 to-rose-600/20 p-2 rounded-lg">
-              <FiHeart className="text-rose-400 text-lg" />
+            {/* Column 3: Resources */}
+            <div>
+              <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
+                Resources
+              </h4>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="/about"
+                    className="text-gray-400 hover:text-pink-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1.5 h-1.5 bg-pink-400/50 rounded-full group-hover:bg-pink-400 transition-colors"></div>
+                    <span>About Us</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/contact"
+                    className="text-gray-400 hover:text-pink-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1.5 h-1.5 bg-pink-400/50 rounded-full group-hover:bg-pink-400 transition-colors"></div>
+                    <span>Contact</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/privacy"
+                    className="text-gray-400 hover:text-pink-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1.5 h-1.5 bg-pink-400/50 rounded-full group-hover:bg-pink-400 transition-colors"></div>
+                    <span>Privacy Policy</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/terms"
+                    className="text-gray-400 hover:text-pink-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1.5 h-1.5 bg-pink-400/50 rounded-full group-hover:bg-pink-400 transition-colors"></div>
+                    <span>Terms of Service</span>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <span className="font-semibold text-white group-hover:text-rose-300 transition-colors">
-              Auroverse
-            </span>
-          </div>
-          <p className="text-gray-400 text-sm">
-            Immersive spiritual experiences and community
-          </p>
-        </a>
 
-        {/* Savitri */}
-        <a 
-          href="https://savitri.in/1/1/1" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="group bg-gradient-to-r from-gray-800 to-gray-900 hover:from-pink-900/30 hover:to-gray-900 rounded-xl p-4 border border-gray-700 hover:border-pink-500/50 transition-all duration-300 hover:scale-[1.02]"
-        >
-          <div className="flex items-center gap-3 mb-2">
-            <div className="bg-gradient-to-r from-pink-500/20 to-pink-600/20 p-2 rounded-lg">
-              <FiAward className="text-pink-400 text-lg" />
+            {/* Column 4: Spiritual Ecosystem */}
+            <div>
+              <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                <div className="w-2 h-2 bg-rose-500 rounded-full"></div>
+                Spiritual Ecosystem
+              </h4>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://incarnateword.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-rose-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1.5 h-1.5 bg-rose-400/50 rounded-full group-hover:bg-rose-400 transition-colors"></div>
+                    <span>IncarnateWord</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://vmlt.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-pink-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1.5 h-1.5 bg-pink-400/50 rounded-full group-hover:bg-pink-400 transition-colors"></div>
+                    <span>VMLT Institute</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://auroverse.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-rose-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1.5 h-1.5 bg-rose-400/50 rounded-full group-hover:bg-rose-400 transition-colors"></div>
+                    <span>Auroverse</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://savitri.in/1/1/1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-pink-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1.5 h-1.5 bg-pink-400/50 rounded-full group-hover:bg-pink-400 transition-colors"></div>
+                    <span>Savitri</span>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <span className="font-semibold text-white group-hover:text-pink-300 transition-colors">
-              Savitri
-            </span>
           </div>
-          <p className="text-gray-400 text-sm">
-            The epic poem of spiritual transformation
-          </p>
-        </a>
-      </div>
-    </div>
 
-    {/* Copyright Section */}
-    <div className="mt-12 pt-8 border-t border-gray-700">
-      <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-        <div className="text-sm text-gray-500">
-          &copy; {new Date().getFullYear()} Flower Song. All rights reserved.
-          <span className="mx-2">•</span>
-          <span className="text-rose-400/70">Flower Song</span>
-        </div>
-        
-        <div className="flex items-center gap-6 text-sm text-gray-500">
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 bg-rose-500 rounded-full animate-pulse"></div>
-            <span>Spiritual Growth</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 bg-pink-500 rounded-full animate-pulse"></div>
-            <span>Divine Connection</span>
+          {/* Copyright Section */}
+          <div className="mt-12 pt-8 border-t border-gray-700">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+              <div className="text-sm text-gray-500">
+                &copy; {new Date().getFullYear()} Flower Song. All rights reserved.
+                <span className="mx-2">•</span>
+                <span className="text-rose-400/70">Flower Song</span>
+              </div>
+
+              <div className="flex items-center gap-6 text-sm text-gray-500">
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-rose-500 rounded-full animate-pulse"></div>
+                  <span>Spiritual Growth</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-pink-500 rounded-full animate-pulse"></div>
+                  <span>Divine Connection</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</footer>
+      </footer>
     </div>
   );
 }
